@@ -266,6 +266,12 @@ colors:
             <path fill="#fff" d="M14.5,13.5H16.5V10.5H14.5M18,14A1,1 0 0,1 17,15H16.25V16.5H14.75V15H14A1,1 0 0,1 13,14V10A1,1 0 0,1 14,9H17A1,1 0 0,1 18,10M11,15H9.5V13H7.5V15H6V9H7.5V11.5H9.5V9H11M19,4H5C3.89,4 3,4.89 3,6V18A2,2 0 0,0 5,20H19A2,2 0 0,0 21,18V6C21,4.89 20.1,4 19,4Z" transform="scale(0.75)" />
         </g>
     </symbol>
+    <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="type_ape">
+        <circle fill="#689F38" cx="12" cy="12" r="12" />
+        <text text-anchor="middle" dominant-baseline="middle" font-family="Fira Sans" font-weight="bold" font-size="9" fill="#fff">
+            <tspan x="12" y="12">APE</tspan>
+        </text>
+    </symbol>
     <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="waypoint_flag">
         <g transform="translate(3,3)">
             <path fill="#C62828" d="M6,3A1,1 0 0,1 7,4V4.88C8.06,4.44 9.5,4 11,4C14,4 14,6 16,6C19,6 20,4 20,4V12C20,12 19,14 16,14C13,14 13,12 11,12C8,12 7,14 7,14V21H5V4A1,1 0 0,1 6,3Z" transform="scale(0.75)" />
