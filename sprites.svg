@@ -185,13 +185,15 @@ colors:
     </symbol>
     <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="type_giga">
         <circle fill="#d32f2f" cx="12" cy="12" r="12" />
-        <g transform="translate(3.3,2.5)">
-        </g>
+        <text text-anchor="middle" dominant-baseline="middle" font-family="Fira Sans" font-weight="bold" font-size="9" fill="#fff">
+            <tspan x="12" y="12">giga</tspan>
+        </text>
     </symbol>
     <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="type_mega">
         <circle fill="#d32f2f" cx="12" cy="12" r="12" />
-        <g transform="translate(3.3,2.5)">
-        </g>
+        <text text-anchor="middle" dominant-baseline="middle" font-family="Fira Sans" font-weight="bold" font-size="9" fill="#fff">
+            <tspan x="12" y="12">mega</tspan>
+        </text>
     </symbol>
     <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="type_cito">
         <circle fill="#d32f2f" cx="12" cy="12" r="12" />
