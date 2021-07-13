@@ -138,7 +138,7 @@ colors:
     </symbol>
     <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="dot_virtual">
         <circle fill="#fff" cx="12" cy="12" r="12" />
-        <circle fill="#0097a7" cx="12" cy="12" r="10" />
+        <circle fill="#0288d1" cx="12" cy="12" r="10" />
     </symbol>
     <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="dot_waypoint_flag">
         <circle fill="#999" cx="12" cy="12" r="12" />
@@ -169,9 +169,16 @@ colors:
         <circle fill="#fff" cx="12" cy="12" r="12" />
         <path fill="#616161" d="M15.07,11.25L14.17,12.17C13.45,12.89 13,13.5 13,15H11V14.5C11,13.39 11.45,12.39 12.17,11.67L13.41,10.41C13.78,10.05 14,9.55 14,9C14,7.89 13.1,7 12,7A2,2 0 0,0 10,9H8A4,4 0 0,1 12,5A4,4 0 0,1 16,9C16,9.88 15.64,10.67 15.07,11.25M13,19H11V17H13M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12C22,6.47 17.5,2 12,2Z" />
     </symbol>
+    <!-- scale down the smiley as it seems larger due to the dark border -->
     <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="dot_found">
-        <circle fill="#5D4037" cx="12" cy="12" r="12" />
-        <path fill="#FBC02D" d="M12,2C6.47,2 2,6.5 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M15.5,8A1.5,1.5 0 0,1 17,9.5A1.5,1.5 0 0,1 15.5,11A1.5,1.5 0 0,1 14,9.5A1.5,1.5 0 0,1 15.5,8M8.5,8A1.5,1.5 0 0,1 10,9.5A1.5,1.5 0 0,1 8.5,11A1.5,1.5 0 0,1 7,9.5A1.5,1.5 0 0,1 8.5,8M12,17.5C9.67,17.5 7.69,16.04 6.89,14H17.11C16.3,16.04 14.33,17.5 12,17.5Z" />
+        <g transform="translate(2,2) scale(0.8333333333333333)">
+            <circle fill="#5D4037" cx="12" cy="12" r="12" />
+            <path fill="#FBC02D" d="M12,2C6.47,2 2,6.5 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M15.5,8A1.5,1.5 0 0,1 17,9.5A1.5,1.5 0 0,1 15.5,11A1.5,1.5 0 0,1 14,9.5A1.5,1.5 0 0,1 15.5,8M8.5,8A1.5,1.5 0 0,1 10,9.5A1.5,1.5 0 0,1 8.5,11A1.5,1.5 0 0,1 7,9.5A1.5,1.5 0 0,1 8.5,8M12,17.5C9.67,17.5 7.69,16.04 6.89,14H17.11C16.3,16.04 14.33,17.5 12,17.5Z" />
+        </g>
+    </symbol>
+    <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="dot_found2">
+            <circle fill="#5D4037" cx="12" cy="12" r="12" />
+            <path fill="#FBC02D" d="M12,2C6.47,2 2,6.5 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M15.5,8A1.5,1.5 0 0,1 17,9.5A1.5,1.5 0 0,1 15.5,11A1.5,1.5 0 0,1 14,9.5A1.5,1.5 0 0,1 15.5,8M8.5,8A1.5,1.5 0 0,1 10,9.5A1.5,1.5 0 0,1 8.5,11A1.5,1.5 0 0,1 7,9.5A1.5,1.5 0 0,1 8.5,8M12,17.5C9.67,17.5 7.69,16.04 6.89,14H17.11C16.3,16.04 14.33,17.5 12,17.5Z" />
     </symbol>
     <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="type_advlab">
         <circle fill="#90CAF9" cx="12" cy="12" r="12" />
@@ -222,10 +229,28 @@ colors:
             <tspan x="12" y="12">giga</tspan>
         </text>
     </symbol>
+    <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="type_giga2">
+        <circle fill="#d32f2f" cx="12" cy="12" r="12" />
+        <text text-anchor="middle" dominant-baseline="middle" font-family="Fira Sans" font-weight="bold" font-size="18" fill="#fff">
+            <tspan x="11.6" y="13">G</tspan>
+        </text>
+    </symbol>
     <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="type_mega">
         <circle fill="#d32f2f" cx="12" cy="12" r="12" />
         <text text-anchor="middle" dominant-baseline="middle" font-family="Fira Sans" font-weight="bold" font-size="9" fill="#fff">
             <tspan x="12" y="12">mega</tspan>
+        </text>
+    </symbol>
+    <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="type_mega2">
+        <circle fill="#d32f2f" cx="12" cy="12" r="12" />
+        <g transform="translate(3.5,2.5)">
+            <path fill="#fff" d="M12,8H4A2,2 0 0,0 2,10V14A2,2 0 0,0 4,16H5V20A1,1 0 0,0 6,21H8A1,1 0 0,0 9,20V16H12L17,20V4L12,8M21.5,12C21.5,13.71 20.54,15.26 19,16V8C20.53,8.75 21.5,10.3 21.5,12Z" transform="scale(0.75)" />
+        </g>
+    </symbol>
+    <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="type_mega3">
+        <circle fill="#d32f2f" cx="12" cy="12" r="12" />
+        <text text-anchor="middle" dominant-baseline="middle" font-family="Fira Sans" font-weight="bold" font-size="18" fill="#fff">
+            <tspan x="11.6" y="13">M</tspan>
         </text>
     </symbol>
     <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="type_cito">
@@ -265,6 +290,12 @@ colors:
         <g transform="translate(3,3)">
             <path fill="#fff" d="M14.5,13.5H16.5V10.5H14.5M18,14A1,1 0 0,1 17,15H16.25V16.5H14.75V15H14A1,1 0 0,1 13,14V10A1,1 0 0,1 14,9H17A1,1 0 0,1 18,10M11,15H9.5V13H7.5V15H6V9H7.5V11.5H9.5V9H11M19,4H5C3.89,4 3,4.89 3,6V18A2,2 0 0,0 5,20H19A2,2 0 0,0 21,18V6C21,4.89 20.1,4 19,4Z" transform="scale(0.75)" />
         </g>
+    </symbol>
+    <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="type_hq2">
+        <circle fill="#689F38" cx="12" cy="12" r="12" />
+        <text text-anchor="middle" dominant-baseline="middle" font-family="Fira Sans" font-weight="bold" font-size="11" fill="#fff">
+            <tspan x="12" y="13">HQ</tspan>
+        </text>
     </symbol>
     <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="type_ape">
         <circle fill="#689F38" cx="12" cy="12" r="12" />
@@ -307,6 +338,10 @@ colors:
         <circle fill="#C62828" cx="12" cy="12" r="9" />
         <circle fill="#fff" cx="12" cy="12" r="7.5" />
         <circle fill="#C62828" cx="12" cy="12" r="3" />
+    </symbol>
+    <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="type_overlay_archived">
+        <line x1="10%" y1="90%" x2="90%" y2="10%" stroke="#b71c1c" stroke-width="3"/>
+        <line x1="90%" y1="90%" x2="10%" y2="10%" stroke="#b71c1c" stroke-width="3"/>
     </symbol>
     <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="marker">
         <circle fill="#000" cx="12" cy="12" r="12" />
