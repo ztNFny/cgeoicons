@@ -83,6 +83,10 @@ colors:
         <circle fill="#fff" cx="12" cy="12" r="12" />
         <circle fill="#90CAF9" cx="12" cy="12" r="10" />
     </symbol>
+    <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="dot_advlab3">
+        <circle fill="#fff" cx="12" cy="12" r="12" />
+        <circle fill="#7b1fa2" cx="12" cy="12" r="10" />
+    </symbol>
     <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="dot_advlab2">
         <circle fill="#fff" cx="12" cy="12" r="12" />
         <circle fill="#90CAF9" cx="12" cy="12" r="10" />
@@ -182,6 +186,36 @@ colors:
     </symbol>
     <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="type_advlab">
         <circle fill="#90CAF9" cx="12" cy="12" r="12" />
+        <circle fill="#90CAF9" cx="12" cy="10" r="2" />
+        <g transform="translate(2.4,2.4)">
+            <path fill="#fff" d="M12,11.5A2.5,2.5 0 0,1 9.5,9A2.5,2.5 0 0,1 12,6.5A2.5,2.5 0 0,1 14.5,9A2.5,2.5 0 0,1 12,11.5M12,2A7,7 0 0,0 5,9C5,14.25 12,22 12,22C12,22 19,14.25 19,9A7,7 0 0,0 12,2Z" transform="scale(0.8)" />
+        </g>
+    </symbol>
+    <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="type_advlab5">
+        <circle fill="#7b1fa2" cx="12" cy="12" r="12" />
+        <circle fill="#7b1fa2" cx="12" cy="10" r="2" />
+        <g transform="translate(2.4,2.4)">
+            <path fill="#fff" d="M12,11.5A2.5,2.5 0 0,1 9.5,9A2.5,2.5 0 0,1 12,6.5A2.5,2.5 0 0,1 14.5,9A2.5,2.5 0 0,1 12,11.5M12,2A7,7 0 0,0 5,9C5,14.25 12,22 12,22C12,22 19,14.25 19,9A7,7 0 0,0 12,2Z" transform="scale(0.8)" />
+        </g>
+    </symbol>
+    <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="type_advlab3">
+        <circle fill="#90CAF9" cx="12" cy="12" r="12" />
+        <g transform="translate(8.7,-1)">
+        <g transform="rotate(30)">
+            <path fill="#fff" d="M19 15C19 18.87 15.87 22 12 22C8.13 22 5 18.87 5 15C5 12.21 6.64 9.8 9 8.67V5C9 4.45 9.45 4 10 4H10.5L9.5 2H14.5L13.5 4H14C14.55 4 15 4.45 15 5V8.67C17.36 9.8 19 12.21 19 15M11 6V10.1C8.72 10.56 7 12.58 7 15L7.08 15.91L9 13.93L13.07 18L16.93 14.14C16.58 12.12 15 10.5 13 10.1V6H11M13.07 12C13.62 12 14.07 12.45 14.07 13C14.07 13.55 13.62 14 13.07 14C12.5 14 12.07 13.55 12.07 13C12.07 12.45 12.5 12 13.07 12Z" transform="scale(0.8)" />
+            </g>
+        </g>
+    </symbol>
+    <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="type_advlab4">
+        <circle fill="#7b1fa2" cx="12" cy="12" r="12" />
+        <g transform="translate(8.7,-1)">
+        <g transform="rotate(30)">
+            <path fill="#fff" d="M19 15C19 18.87 15.87 22 12 22C8.13 22 5 18.87 5 15C5 12.21 6.64 9.8 9 8.67V5C9 4.45 9.45 4 10 4H10.5L9.5 2H14.5L13.5 4H14C14.55 4 15 4.45 15 5V8.67C17.36 9.8 19 12.21 19 15M11 6V10.1C8.72 10.56 7 12.58 7 15L7.08 15.91L9 13.93L13.07 18L16.93 14.14C16.58 12.12 15 10.5 13 10.1V6H11M13.07 12C13.62 12 14.07 12.45 14.07 13C14.07 13.55 13.62 14 13.07 14C12.5 14 12.07 13.55 12.07 13C12.07 12.45 12.5 12 13.07 12Z" transform="scale(0.8)" />
+            </g>
+        </g>
+    </symbol>
+    <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="type_advlab2">
+        <circle fill="#90CAF9" cx="12" cy="12" r="12" />
         <circle fill="#fff" cx="12" cy="10" r="2" />
         <g transform="translate(2.4,2.4)">
             <path fill="#e64a19" stroke-width="1" stroke="#212121" d="M12,11.5A2.5,2.5 0 0,1 9.5,9A2.5,2.5 0 0,1 12,6.5A2.5,2.5 0 0,1 14.5,9A2.5,2.5 0 0,1 12,11.5M12,2A7,7 0 0,0 5,9C5,14.25 12,22 12,22C12,22 19,14.25 19,9A7,7 0 0,0 12,2Z" transform="scale(0.8)" />
@@ -257,6 +291,18 @@ colors:
         <circle fill="#d32f2f" cx="12" cy="12" r="12" />
         <g transform="translate(3.3,3.3)">
             <path fill="#fff" d="M9,3V4H4V6H5V19A2,2 0 0,0 7,21H17A2,2 0 0,0 19,19V6H20V4H15V3H9M9,8H11V17H9V8M13,8H15V17H13V8Z" transform="scale(0.75)" />
+        </g>
+    </symbol>
+    <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="type_cito2">
+        <circle fill="#303f9f" cx="12" cy="12" r="12" />
+        <g transform="translate(-2.1,-2.1)">
+            <path fill="#689F38" d="m13.736 2.1519c-5.4389-0.95903-10.626 2.6727-11.585 8.1116-0.95903 5.4389 2.6727 10.626 8.1116 11.585 5.4389 0.95903 10.626-2.6727 11.585-8.1116 0.95903-5.4389-2.6727-10.626-8.1116-11.585m-0.10729 0.61953c5.2681 1.0463 8.4916 6.3463 7.6845 10.857-0.77821 4.3492-5.5145 8.3728-10.543 7.6454 3.2121-1.0117 4.0907-2.4644 4.4744-4.64s-1.0691-4.2502-3.2446-4.6338c-2.1756-0.38361-3.6283-2.4582-3.2446-4.6338 0.38361-2.1756 2.6983-4.9783 4.8738-4.5947m-2.5843 14.645c9.9044-10.1 4.9522-5.0501 0 0z" transform="scale(1.2)" />
+        </g>
+    </symbol>
+    <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="type_cito3">
+        <circle fill="#d32f2f" cx="12" cy="12" r="12" />
+        <g transform="translate(3.3,21) scale(1,-1)">
+            <path fill="#fff" d="m8.5798 2.6031c5.1898-1.8889 10.928 0.78695 12.817 5.9767 1.8889 5.1898-0.78695 10.928-5.9767 12.817-5.1898 1.8889-10.928-0.78695-12.817-5.9767-1.8889-5.1898 0.78695-10.928 5.9767-12.817m0.68404 1.8794c-4.1518 1.5111-6.2925 6.1019-4.7814 10.254 1.5111 4.1518 6.1019 6.2925 10.254 4.7814-2.0759 0.75557-4.3713-0.31478-5.1269-2.3907-0.75557-2.0759 0.31478-4.3713 2.3907-5.1269 2.0759-0.75557 3.1463-3.0509 2.3907-5.1269-0.75557-2.0759-3.0509-3.1463-5.1269-2.3907m4.6173 12.686c-11.508-8.2269-5.7539-4.1135 0 0z" transform="scale(0.75)" />
         </g>
     </symbol>
     <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="type_traditional">
