@@ -1,0 +1,20 @@
+<svg width="0" height="0" class="hidden"
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" id="marker_nopin">
+        <circle cx="15" cy="15" r="11.597" fill="#fff" stroke="#000" stroke-width=".80672" />
+    </symbol>
+    <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" id="marker">
+        <path transform="matrix(1.1451 0 0 1.0688 -1.0308 .64989)" d="m14 21.197c-0.70408 0.29179-1.4046 0.93052-1.8086 1.7949-0.88162 1.8863 1.8086 4.0078 1.8086 4.0078s2.6902-2.1215 1.8086-4.0078c-0.40401-0.86441-1.1045-1.5031-1.8086-1.7949z" fill="#fff" fill-rule="evenodd" stroke="#000" stroke-width=".72315" style="mix-blend-mode:normal" />
+        <circle cx="15" cy="15" r="11.597" fill="#fff" stroke="#000" stroke-width=".80672" />
+    </symbol>
+    <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="tick">
+        <path fill="#43a047" d="M9,20.42L2.79,14.21L5.62,11.38L9,14.77L18.88,4.88L21.71,7.71L9,20.42Z" />
+    </symbol>
+    <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="compass_arrow_mini_black">
+        <path fill="#212121" d="M12,2L4.5,20.29L5.21,21L12,18L18.79,21L19.5,20.29L12,2Z" />
+    </symbol>
+    <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="compass_arrow_mini_white">
+        <path fill="#e0e0e0" d="M12,2L4.5,20.29L5.21,21L12,18L18.79,21L19.5,20.29L12,2Z" />
+    </symbol>
+</svg>

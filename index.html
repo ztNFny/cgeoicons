@@ -19,9 +19,11 @@
 
         .cacheicon {
             background-image: url("marker.svg");
-            background-size: 44px;
+            background-size: 100%;
             background-repeat: no-repeat;
-            padding: 4px;
+            width: 36px;
+            height: 36px;
+            padding: 10px;
             float: left;
             margin-right: 10px;
         }
@@ -29,8 +31,12 @@
             white-space: nowrap;
         }
         td:nth-child(4) {
+            display: none;
             max-width: 500px;
             text-shadow: 0px 0px 3px white;
+        }
+        table {
+            float: left;
         }
     </style>
 </head>
@@ -43,105 +49,105 @@ Icons with text require <a href="https://github.com/mozilla/Fira/raw/master/ttf/
 <body>
     <table>
         <tr>
-            <th>Icon name</th>
-            <th>Current</th>
-            <th>New</th>
-            <th>New alt</th>
-        </tr>
-        <tr>
             <td>dot_advlab</td>
             <td><img src="old/dot_advlab.png" /></td>
-            <td><svg class="small"><use xlink:href="sprites.svg#dot_advlab3"></use></svg> <svg class="small"><use xlink:href="sprites.svg#dot_advlab"></use></svg> <svg class="small"><use xlink:href="sprites.svg#dot_advlab2"></use></svg>
+            <td><svg class="small"><use xlink:href="dots.svg#dot_advlab3"></use></svg> <svg class="small"><use xlink:href="dots.svg#dot_advlab"></use></svg> <svg class="small"><use xlink:href="dots.svg#dot_advlab2"></use></svg>
         </tr>
         <tr>
             <td>dot_black</td>
             <td><img src="old/dot_black.png" /></td>
-            <td><svg class="small"><use xlink:href="sprites.svg#dot_black"></use></svg></td>
+            <td><svg class="small"><use xlink:href="dots.svg#dot_black"></use></svg></td>
         </tr>
         <tr>
             <td>dot_event</td>
             <td><img src="old/dot_event.png" /></td>
-            <td><svg class="small"><use xlink:href="sprites.svg#dot_event"></use></svg> <svg class="small"><use xlink:href="sprites.svg#dot_event2"></use></svg></td>
+            <td><svg class="small"><use xlink:href="dots.svg#dot_event"></use></svg> <svg class="small"><use xlink:href="dots.svg#dot_event2"></use></svg></td>
         </tr>
         <tr>
             <td>dot_found</td>
             <td><img src="old/dot_found.png" /></td>
-            <td><svg class="small"><use xlink:href="sprites.svg#dot_found"></use></svg> <svg class="small"><use xlink:href="sprites.svg#dot_found2"></use></svg></td>
+            <td><svg class="small"><use xlink:href="dots.svg#dot_found"></use></svg> <svg class="small"><use xlink:href="dots.svg#dot_found2"></use></svg></td>
         </tr>
         <tr>
             <td>dot_found_offline</td>
             <td></td>
-            <td><svg class="small"><use xlink:href="sprites.svg#dot_found_offline"></use></svg></td>
+            <td><svg class="small"><use xlink:href="dots.svg#dot_found_offline"></use></svg>
+                <svg class="small"><use xlink:href="dots.svg#dot_found_offline2"></use></svg></td>
         </tr>
         <tr>
             <td>dot_multi</td>
             <td><img src="old/dot_multi.png" /></td>
-            <td><svg class="small"><use xlink:href="sprites.svg#dot_multi"></use></svg> <svg class="small"><use xlink:href="sprites.svg#dot_multi2"></use></svg></td>
+            <td><svg class="small"><use xlink:href="dots.svg#dot_multi"></use></svg> <svg class="small"><use xlink:href="dots.svg#dot_multi2"></use></svg></td>
         </tr>
         <tr>
             <td>dot_specialgc</td>
             <td>NEW</td>
-            <td><svg class="small"><use xlink:href="sprites.svg#dot_specialgc"></use></svg></td>
+            <td><svg class="small"><use xlink:href="dots.svg#dot_specialgc"></use></svg></td>
         </tr>
         <tr>
             <td>dot_not_found_offline</td>
             <td>NEW</td>
-            <td><svg class="small"><use xlink:href="sprites.svg#dot_not_found_offline"></use></svg></td>
+            <td><svg class="small"><use xlink:href="dots.svg#dot_not_found_offline"></use></svg> <svg class="small"><use xlink:href="dots.svg#dot_not_found_offline2"></use></svg></td>
         </tr>
         <tr>
             <td>dot_marker_calendar</td>
             <td>NEW</td>
-            <td><svg class="small"><use xlink:href="sprites.svg#dot_marker_calendar"></use></svg></td>
+            <td><svg class="small"><use xlink:href="dots.svg#dot_marker_calendar"></use></svg></td>
         </tr>
         <tr>
             <td>dot_note_offline</td>
             <td>NEW</td>
-            <td><svg class="small"><use xlink:href="sprites.svg#dot_note_offline"></use></svg></td>
+            <td><svg class="small"><use xlink:href="dots.svg#dot_note_offline"></use></svg></td>
         </tr>
         <tr>
             <td>dot_marker_archive_offline</td>
             <td>NEW</td>
-            <td><svg class="small"><use xlink:href="sprites.svg#dot_marker_archive_offline"></use></svg></td>
+            <td><svg class="small"><use xlink:href="dots.svg#dot_marker_archive_offline"></use></svg></td>
         </tr>
         <tr>
             <td>dot_marker_maintenance_offline</td>
             <td>NEW</td>
-            <td><svg class="small"><use xlink:href="sprites.svg#dot_marker_maintenance_offline"></use></svg></td>
+            <td><svg class="small"><use xlink:href="dots.svg#dot_marker_maintenance_offline"></use></svg></td>
+        </tr>
+        <tr>
+            <td>dot_marker_usermodifiedcoords</td>
+            <td>NEW</td>
+            <td><svg class="small"><use xlink:href="dots.svg#dot_marker_usermodifiedcoords"></use></svg></td>
         </tr>
         <tr>
             <td>dot_mystery</td>
             <td><img src="old/dot_mystery.png" /></td>
-            <td><svg class="small"><use xlink:href="sprites.svg#dot_mystery"></use></svg> <svg class="small"><use xlink:href="sprites.svg#dot_mystery2"></use></svg></td>
+            <td><svg class="small"><use xlink:href="dots.svg#dot_mystery"></use></svg> <svg class="small"><use xlink:href="dots.svg#dot_mystery2"></use></svg></td>
         </tr>
         <tr>
             <td>dot_traditional</td>
             <td><img src="old/dot_traditional.png" /></td>
-            <td><svg class="small"><use xlink:href="sprites.svg#dot_traditional"></use></svg> <svg class="small"><use xlink:href="sprites.svg#dot_traditional2"></use></svg></td>
+            <td><svg class="small"><use xlink:href="dots.svg#dot_traditional"></use></svg> <svg class="small"><use xlink:href="dots.svg#dot_traditional2"></use></svg></td>
         </tr>
         <tr>
             <td>dot_unknown</td>
             <td><img src="old/dot_unknown.png" /></td>
-            <td><svg class="small"><use xlink:href="sprites.svg#dot_unknown"></use></svg> <svg class="small"><use xlink:href="sprites.svg#dot_unknown2"></use></svg></td>
+            <td><svg class="small"><use xlink:href="dots.svg#dot_unknown"></use></svg> <svg class="small"><use xlink:href="dots.svg#dot_unknown2"></use></svg></td>
         </tr>
         <tr>
             <td>dot_virtual</td>
             <td><img src="old/dot_virtual.png" /></td>
-            <td><svg class="small"><use xlink:href="sprites.svg#dot_virtual"></use></svg></td>
+            <td><svg class="small"><use xlink:href="dots.svg#dot_virtual"></use></svg></td>
         </tr>
         <tr>
             <td>dot_waypoint_flag</td>
             <td><img src="old/dot_waypoint_flag.png" /></td>
-            <td><svg class="small"><use xlink:href="sprites.svg#dot_waypoint_flag"></use></svg></td>
+            <td><svg class="small"><use xlink:href="dots.svg#dot_waypoint_flag"></use></svg></td>
         </tr>
         <tr>
             <td>dot_waypoint_stage</td>
             <td>NEW</td>
-            <td><svg class="small"><use xlink:href="sprites.svg#dot_waypoint_stage"></use></svg></td>
+            <td><svg class="small"><use xlink:href="dots.svg#dot_waypoint_stage"></use></svg></td>
         </tr>
         <tr>
             <td>dot_waypoint_pkg</td>
             <td><img src="old/dot_waypoint_pkg.png" /></td>
-            <td><svg class="small"><use xlink:href="sprites.svg#dot_waypoint_pkg"></use></svg></td>
+            <td><svg class="small"><use xlink:href="dots.svg#dot_waypoint_pkg"></use></svg></td>
         </tr>
         <tr>
             <td>dot_waypoint_reference</td>
@@ -151,138 +157,148 @@ Icons with text require <a href="https://github.com/mozilla/Fira/raw/master/ttf/
         <tr>
             <td>dot_waypoint_waypoint</td>
             <td>NEW</td>
-            <td><svg class="small"><use xlink:href="sprites.svg#dot_waypoint_waypoint"></use></svg></td>
+            <td><svg class="small"><use xlink:href="dots.svg#dot_waypoint_waypoint"></use></svg></td>
         </tr>
         <tr>
             <td>dot_waypoint_puzzle</td>
             <td>NEW</td>
-            <td><svg class="small"><use xlink:href="sprites.svg#dot_waypoint_puzzle"></use></svg></td>
+            <td><svg class="small"><use xlink:href="dots.svg#dot_waypoint_puzzle"></use></svg></td>
         </tr>
         <tr>
             <td>dot_waypoint_trailhead</td>
             <td>NEW</td>
-            <td><svg class="small"><use xlink:href="sprites.svg#dot_waypoint_trailhead"></use></svg></td>
+            <td><svg class="small"><use xlink:href="dots.svg#dot_waypoint_trailhead"></use></svg></td>
         </tr>
         <tr>
             <td>dot_waypoint</td>
             <td><img src="old/dot_waypoint.png" /></td>
             <td>REMOVE</td>
         </tr>
+        </table>
+        <table>
         <tr>
             <td>marker_archive</td>
             <td><img src="old/marker_archive.png" /></td>
-            <td><svg class="small"><use xlink:href="sprites.svg#marker_archive"></use></svg></td>
+            <td><svg class="small"><use xlink:href="markers.svg#marker_archive"></use></svg></td>
         </tr>
         <tr>
             <td>marker_calendar</td>
             <td><img src="old/marker_calendar.png" /></td>
-            <td><svg class="small"><use xlink:href="sprites.svg#marker_calendar"></use></svg></td>
+            <td><svg class="small"><use xlink:href="markers.svg#marker_calendar"></use></svg></td>
         </tr>
         <tr>
             <td>marker_disabled_oc</td>
             <td><img src="old/marker_disabled_oc.png" /></td>
-            <td><svg class="small"><use xlink:href="sprites.svg#marker_disabled_oc"></use></svg></td>
+            <td><svg class="small"><use xlink:href="markers.svg#marker_disabled_oc"></use></svg></td>
         </tr>
         <tr>
             <td>marker_disabled_other</td>
             <td><img src="old/marker_disabled_other.png" /></td>
-            <td><svg class="small"><use xlink:href="sprites.svg#marker_disabled_other"></use></svg></td>
+            <td><svg class="small"><use xlink:href="markers.svg#marker_disabled_other"></use></svg></td>
         </tr>
         <tr>
             <td>marker_disabled</td>
             <td><img src="old/marker_disabled.png" /></td>
-            <td><svg class="small"><use xlink:href="sprites.svg#marker_disabled"></use></svg></td>
+            <td><svg class="small"><use xlink:href="markers.svg#marker_disabled"></use></svg></td>
         </tr>
         <tr>
             <td>marker_found_offline</td>
             <td><img src="old/marker_found_offline.png" /></td>
-            <td><svg class="small"><use xlink:href="sprites.svg#marker_found_offline"></use></svg></td>
+            <td><svg class="small"><use xlink:href="markers.svg#marker_found_offline"></use></svg></td>
         </tr>
         <tr>
             <td>marker_found</td>
             <td><img src="old/marker_found.png" /></td>
-            <td><svg class="small"><use xlink:href="sprites.svg#marker_found"></use></svg></td>
+            <td><svg class="small"><use xlink:href="markers.svg#marker_found"></use></svg></td>
         </tr>
         <tr>
             <td>marker_maintenance</td>
             <td><img src="old/marker_maintenance.png" /></td>
-            <td><svg class="small"><use xlink:href="sprites.svg#marker_maintenance"></use></svg></td>
+            <td><svg class="small"><use xlink:href="markers.svg#marker_maintenance"></use></svg></td>
         </tr>
         <tr>
             <td>marker_not_found_offline</td>
             <td><img src="old/marker_not_found_offline.png" /></td>
-            <td><svg class="small"><use xlink:href="sprites.svg#marker_not_found_offline"></use></svg></td>
+            <td><svg class="small"><use xlink:href="markers.svg#marker_not_found_offline"></use></svg></td>
         </tr>
         <tr>
             <td>marker_note</td>
             <td><img src="old/marker_note.png" /></td>
-            <td><svg class="small"><use xlink:href="sprites.svg#marker_note"></use></svg></td>
+            <td><svg class="small"><use xlink:href="markers.svg#marker_note"></use></svg></td>
         </tr>
         <tr>
             <td>marker_notreliable</td>
             <td><img src="old/marker_notreliable.png" /></td>
-            <td><svg class="small"><use xlink:href="sprites.svg#marker_notreliable"></use></svg></td>
+            <td><svg class="small"><use xlink:href="markers.svg#marker_notreliable"></use></svg></td>
         </tr>
         <tr>
             <td>marker_oc</td>
             <td><img src="old/marker_oc.png" /></td>
-            <td><svg class="small"><use xlink:href="sprites.svg#marker_oc"></use></svg></td>
+            <td><svg class="small"><use xlink:href="markers.svg#marker_oc"></use></svg></td>
         </tr>
         <tr>
             <td>marker_other</td>
             <td><img src="old/marker_other.png" /></td>
-            <td><svg class="small"><use xlink:href="sprites.svg#marker_other"></use></svg></td>
+            <td><svg class="small"><use xlink:href="markers.svg#marker_other"></use></svg></td>
         </tr>
         <tr>
             <td>marker_own</td>
             <td><img src="old/marker_own.png" /></td>
-            <td><svg class="small"><use xlink:href="sprites.svg#marker_own"></use></svg></td>
+            <td><svg class="small"><use xlink:href="markers.svg#marker_own"></use></svg></td>
         </tr>
         <tr>
             <td>marker_owner_maintenance</td>
             <td><img src="old/marker_owner_maintenance.png" /></td>
-            <td><svg class="small"><use xlink:href="sprites.svg#marker_owner_maintenance"></use></svg></td>
+            <td><svg class="small"><use xlink:href="markers.svg#marker_owner_maintenance"></use></svg></td>
         </tr>
         <tr>
             <td>marker_personalnote</td>
             <td><img src="old/marker_personalnote.png" /></td>
-            <td><svg class="small"><use xlink:href="sprites.svg#marker_personalnote"></use></svg></td>
+            <td><svg class="small"><use xlink:href="markers.svg#marker_personalnote"></use></svg></td>
         </tr>
         <tr>
             <td>marker_stored</td>
             <td><img src="old/marker_stored.png" /></td>
-            <td><svg class="small"><use xlink:href="sprites.svg#marker_stored"></use></svg></td>
+            <td><svg class="small"><use xlink:href="markers.svg#marker_stored"></use></svg></td>
         </tr>
         <tr>
             <td>marker_transparent</td>
             <td><img src="old/marker_transparent.png" /></td>
-            <td><svg class="small"><use xlink:href="sprites.svg#marker_transparent"></use></svg></td>
+            <td><svg class="small"><use xlink:href="markers.svg#marker_transparent"></use></svg></td>
         </tr>
         <tr>
             <td>marker_unknown_offline</td>
             <td><img src="old/marker_unknown_offline.png" /></td>
-            <td><svg class="small"><use xlink:href="sprites.svg#marker_unknown_offline"></use></svg></td>
+            <td><svg class="small"><use xlink:href="markers.svg#marker_unknown_offline"></use></svg></td>
         </tr>
         <tr>
             <td>marker_usermodifiedcoords</td>
             <td><img src="old/marker_usermodifiedcoords.png" /></td>
-            <td><svg class="small"><use xlink:href="sprites.svg#marker_usermodifiedcoords"></use></svg></td>
+            <td><svg class="small"><use xlink:href="markers.svg#marker_usermodifiedcoords"></use></svg></td>
         </tr>
         <tr>
             <td>marker</td>
             <td><img src="old/marker.png" /></td>
-            <td><svg class="small"><use xlink:href="sprites.svg#marker"></use></svg></td>
+            <td>
+				<div class="cacheicon"></div> </td>
         </tr>
+        <tr>
+            <td>marker_nopin</td>
+            <td>NEW</td>
+            <td><svg class="small"><use xlink:href="misc.svg#marker_nopin"></use></svg></td>
+        </tr>
+    </table>
+    <table>
         <tr>
             <td>type_advlab</td>
             <td><img src="old/type_advlab.png" /></td>
             <td>
-				<div class="cacheicon"><svg class="large"><use xlink:href="sprites.svg#type_advlab"></use></svg></div> 
-				<div class="cacheicon"><svg class="large"><use xlink:href="sprites.svg#type_advlab6"></use></svg></div> 
-				<div class="cacheicon"><svg class="large"><use xlink:href="sprites.svg#type_advlab2"></use></svg></div> 
-				<div class="cacheicon"><svg class="large"><use xlink:href="sprites.svg#type_advlab3"></use></svg></div> 
-				<div class="cacheicon"><svg class="large"><use xlink:href="sprites.svg#type_advlab4"></use></svg></div> 
-				<div class="cacheicon"><svg class="large"><use xlink:href="sprites.svg#type_advlab5"></use></svg></div>
+				<div class="cacheicon"><svg class="large"><use xlink:href="types.svg#type_advlab"></use></svg></div> 
+				<div class="cacheicon"><svg class="large"><use xlink:href="types.svg#type_advlab6"></use></svg></div> 
+				<div class="cacheicon"><svg class="large"><use xlink:href="types.svg#type_advlab2"></use></svg></div> 
+				<div class="cacheicon"><svg class="large"><use xlink:href="types.svg#type_advlab3"></use></svg></div> 
+				<div class="cacheicon"><svg class="large"><use xlink:href="types.svg#type_advlab4"></use></svg></div> 
+				<div class="cacheicon"><svg class="large"><use xlink:href="types.svg#type_advlab5"></use></svg></div>
             </td>
             <td>Light blue works great as a reference to the official Lab app, but the contrast against white is quite low and it's breaking out of the color scheme (using 700 colors for bg). Light blue + orange marker is closest to the official, but again breaking out of monochrome scheme. Flask as a reference to the old Labs or Ballon as a reference to the current Lab app icon works better imho.</td>
         </tr>
@@ -290,23 +306,23 @@ Icons with text require <a href="https://github.com/mozilla/Fira/raw/master/ttf/
             <td>type_ape</td>
             <td><img src="old/type_ape.png" /></td>
             <td>
-				<div class="cacheicon"><svg class="large"><use xlink:href="sprites.svg#type_ape"></use></svg></div>
+				<div class="cacheicon"><svg class="large"><use xlink:href="types.svg#type_ape"></use></svg></div>
             </td>
         </tr>
         <tr>
             <td>type_cgeo</td>
             <td><img src="old/type_cgeo.png" /></td>
             <td>
-				<div class="cacheicon"><svg class="large"><use xlink:href="sprites.svg#type_cgeo"></use></svg></div>
+				<div class="cacheicon"><svg class="large"><use xlink:href="types.svg#type_cgeo"></use></svg></div>
             </td>
         </tr>
         <tr>
             <td>type_cito</td>
             <td><img src="old/type_cito.png" /></td>
             <td>
-				<div class="cacheicon"><svg class="large"><use xlink:href="sprites.svg#type_cito"></use></svg></div> 
-				<div class="cacheicon"><svg class="large"><use xlink:href="sprites.svg#type_cito2"></use></svg></div> 
-				<div class="cacheicon"><svg class="large"><use xlink:href="sprites.svg#type_cito3"></use></svg></div>
+				<div class="cacheicon"><svg class="large"><use xlink:href="types.svg#type_cito"></use></svg></div> 
+				<div class="cacheicon"><svg class="large"><use xlink:href="types.svg#type_cito2"></use></svg></div> 
+				<div class="cacheicon"><svg class="large"><use xlink:href="types.svg#type_cito3"></use></svg></div>
             </td>
             <td>I prefer to stay with a monochrome color scheme, so while the green/blue icon matches GC and the current icon better I'd prefer the white-only version</td>
         </tr>
@@ -314,125 +330,125 @@ Icons with text require <a href="https://github.com/mozilla/Fira/raw/master/ttf/
             <td>type_earth</td>
             <td><img src="old/type_earth.png" /></td>
             <td>
-				<div class="cacheicon"><svg class="large"><use xlink:href="sprites.svg#type_earth"></use></svg></div>
+				<div class="cacheicon"><svg class="large"><use xlink:href="types.svg#type_earth"></use></svg></div>
             </td>
         </tr>
         <tr>
             <td>type_event</td>
             <td><img src="old/type_event.png" /></td>
             <td>
-				<div class="cacheicon"><svg class="large"><use xlink:href="sprites.svg#type_event"></use></svg></div>
+				<div class="cacheicon"><svg class="large"><use xlink:href="types.svg#type_event"></use></svg></div>
             </td>
         </tr>
         <tr>
             <td>type_celebrationevent</td>
             <td>NEW</td>
             <td>
-				<div class="cacheicon"><svg class="large"><use xlink:href="sprites.svg#type_celebrationevent"></use></svg></div>
+				<div class="cacheicon"><svg class="large"><use xlink:href="types.svg#type_celebrationevent"></use></svg></div>
             </td>
         </tr>
         <tr>
             <td>type_locationless</td>
             <td>NEW</td>
             <td>
-				<div class="cacheicon"><svg class="large"><use xlink:href="sprites.svg#type_locationless"></use></svg></div>
+				<div class="cacheicon"><svg class="large"><use xlink:href="types.svg#type_locationless"></use></svg></div>
             </td>
         </tr>
         <tr>
             <td>type_giga</td>
             <td><img src="old/type_giga.png" /></td>
             <td>
-				<div class="cacheicon"><svg class="large"><use xlink:href="sprites.svg#type_giga"></use></svg></div> 
-				<div class="cacheicon"><svg class="large"><use xlink:href="sprites.svg#type_giga2"></use></svg></div>
+				<div class="cacheicon"><svg class="large"><use xlink:href="types.svg#type_giga"></use></svg></div> 
+				<div class="cacheicon"><svg class="large"><use xlink:href="types.svg#type_giga2"></use></svg></div>
             </td>
         </tr>
         <tr>
             <td>type_hq</td>
             <td><img src="old/type_hq.png" /></td>
             <td>
-				<div class="cacheicon"><svg class="large"><use xlink:href="sprites.svg#type_hq"></use></svg></div> 
-				<div class="cacheicon"><svg class="large"><use xlink:href="sprites.svg#type_hq2"></use></svg></div>
+				<div class="cacheicon"><svg class="large"><use xlink:href="types.svg#type_hq"></use></svg></div> 
+				<div class="cacheicon"><svg class="large"><use xlink:href="types.svg#type_hq2"></use></svg></div>
             </td>
         </tr>
         <tr>
             <td>type_maze</td>
             <td>NEW</td>
             <td>
-				<div class="cacheicon"><svg class="large"><use xlink:href="sprites.svg#type_maze"></use></svg></div>
+				<div class="cacheicon"><svg class="large"><use xlink:href="types.svg#type_maze"></use></svg></div>
             </td>
         </tr>
         <tr>
             <td>type_letterbox</td>
             <td><img src="old/type_letterbox.png" /></td>
             <td>
-				<div class="cacheicon"><svg class="large"><use xlink:href="sprites.svg#type_letterbox"></use></svg></div>
+				<div class="cacheicon"><svg class="large"><use xlink:href="types.svg#type_letterbox"></use></svg></div>
             </td>
         </tr>
         <tr>
             <td>type_mega</td>
             <td><img src="old/type_mega.png" /></td>
             <td>
-				<div class="cacheicon"><svg class="large"><use xlink:href="sprites.svg#type_mega"></use></svg></div> 
-				<div class="cacheicon"><svg class="large"><use xlink:href="sprites.svg#type_mega2"></use></svg></div> 
-				<div class="cacheicon"><svg class="large"><use xlink:href="sprites.svg#type_mega3"></use></svg></div>
+				<div class="cacheicon"><svg class="large"><use xlink:href="types.svg#type_mega"></use></svg></div> 
+				<div class="cacheicon"><svg class="large"><use xlink:href="types.svg#type_mega2"></use></svg></div> 
+				<div class="cacheicon"><svg class="large"><use xlink:href="types.svg#type_mega3"></use></svg></div>
             </td>
         </tr>
         <tr>
             <td>type_multi</td>
             <td><img src="old/type_multi.png" /></td>
             <td>
-				<div class="cacheicon"><svg class="large"><use xlink:href="sprites.svg#type_multi"></use></svg></div> 
-				<div class="cacheicon"><svg class="large"><use xlink:href="sprites.svg#type_multi2"></use></svg></div> 
-				<div class="cacheicon"><svg class="large"><use xlink:href="sprites.svg#type_multi3"></use></svg></div> 
-				<div class="cacheicon"><svg class="large"><use xlink:href="sprites.svg#type_multi4"></use></svg></div> 
-				<div class="cacheicon"><svg class="large"><use xlink:href="sprites.svg#type_multi5"></use></svg></div>
+				<div class="cacheicon"><svg class="large"><use xlink:href="types.svg#type_multi"></use></svg></div> 
+				<div class="cacheicon"><svg class="large"><use xlink:href="types.svg#type_multi2"></use></svg></div> 
+				<div class="cacheicon"><svg class="large"><use xlink:href="types.svg#type_multi3"></use></svg></div> 
+				<div class="cacheicon"><svg class="large"><use xlink:href="types.svg#type_multi4"></use></svg></div> 
+				<div class="cacheicon"><svg class="large"><use xlink:href="types.svg#type_multi5"></use></svg></div>
             </td>
         </tr>
         <tr>
             <td>type_mystery</td>
             <td><img src="old/type_mystery.png" /></td>
             <td>
-				<div class="cacheicon"><svg class="large"><use xlink:href="sprites.svg#type_mystery"></use></svg></div>
+				<div class="cacheicon"><svg class="large"><use xlink:href="types.svg#type_mystery"></use></svg></div>
             </td>
         </tr>
         <tr>
             <td>type_traditional</td>
             <td><img src="old/type_traditional.png" /></td>
             <td>
-				<div class="cacheicon"><svg class="large"><use xlink:href="sprites.svg#type_traditional"></use></svg></div>
+				<div class="cacheicon"><svg class="large"><use xlink:href="types.svg#type_traditional"></use></svg></div>
             </td>
         </tr>
         <tr>
             <td>type_unknown</td>
             <td><img src="old/type_unknown.png" /></td>
             <td>
-				<div class="cacheicon"><svg class="large"><use xlink:href="sprites.svg#type_unknown"></use></svg></div> 
-				<div class="cacheicon"><svg class="large"><use xlink:href="sprites.svg#type_unknown2"></use></svg></div>
+				<div class="cacheicon"><svg class="large"><use xlink:href="types.svg#type_unknown"></use></svg></div> 
+				<div class="cacheicon"><svg class="large"><use xlink:href="types.svg#type_unknown2"></use></svg></div>
             </td>
         </tr>
         <tr>
             <td>type_virtual</td>
             <td><img src="old/type_virtual.png" /></td>
             <td>
-				<div class="cacheicon"><svg class="large"><use xlink:href="sprites.svg#type_virtual"></use></svg></div>
+				<div class="cacheicon"><svg class="large"><use xlink:href="types.svg#type_virtual"></use></svg></div>
             </td>
         </tr>
         <tr>
             <td>type_webcam</td>
             <td><img src="old/type_webcam.png" /></td>
             <td>
-				<div class="cacheicon"><svg class="large"><use xlink:href="sprites.svg#type_webcam"></use></svg></div>
+				<div class="cacheicon"><svg class="large"><use xlink:href="types.svg#type_webcam"></use></svg></div>
             </td>
         </tr>
         <tr>
             <td>type_wherigo</td>
             <td><img src="old/type_wherigo.png" /></td>
             <td>
-				<div class="cacheicon"><svg class="large"><use xlink:href="sprites.svg#type_wherigo3"></use></svg></div>
-				<div class="cacheicon"><svg class="large"><use xlink:href="sprites.svg#type_wherigo4"></use></svg></div>
-				<div class="cacheicon"><svg class="large"><use xlink:href="sprites.svg#type_wherigo"></use></svg></div>
-				<div class="cacheicon"><svg class="large"><use xlink:href="sprites.svg#type_wherigo2"></use></svg></div>
-				<div class="cacheicon"><svg class="large"><use xlink:href="sprites.svg#type_wherigo5"></use></svg></div>
+				<div class="cacheicon"><svg class="large"><use xlink:href="types.svg#type_wherigo3"></use></svg></div>
+				<div class="cacheicon"><svg class="large"><use xlink:href="types.svg#type_wherigo4"></use></svg></div>
+				<div class="cacheicon"><svg class="large"><use xlink:href="types.svg#type_wherigo"></use></svg></div>
+				<div class="cacheicon"><svg class="large"><use xlink:href="types.svg#type_wherigo2"></use></svg></div>
+				<div class="cacheicon"><svg class="large"><use xlink:href="types.svg#type_wherigo5"></use></svg></div>
             </td>
             <td>The bee is a reference to WhereYouGo, but to other users the "play" icon should be better</td>
         </tr>
@@ -440,66 +456,70 @@ Icons with text require <a href="https://github.com/mozilla/Fira/raw/master/ttf/
             <td>type_overlay_archived</td>
             <td><img src="old/type_overlay_archived.png" /></td>
             <td>
-				<div class="cacheicon"><svg class="large"><use xlink:href="sprites.svg#type_overlay_archived"></use></svg></div>
+				<div class="cacheicon"><svg class="large"><use xlink:href="types.svg#type_overlay_archived"></use></svg></div>
             </td>
         </tr>
+    </table>
+    <table>
         <tr>
             <td>waypoint_flag</td>
             <td><img src="old/waypoint_flag.png" /></td>
             <td>
-				<div class="cacheicon"><svg class="large"><use xlink:href="sprites.svg#waypoint_flag"></use></svg></div>
+				<div class="cacheicon"><svg class="large"><use xlink:href="waypoints.svg#waypoint_flag"></use></svg></div>
             </td>
         </tr>
         <tr>
             <td>waypoint_pkg</td>
             <td><img src="old/waypoint_pkg.png" /></td>
             <td>
-				<div class="cacheicon"><svg class="large"><use xlink:href="sprites.svg#waypoint_pkg2"></use></svg></div> 
-				<div class="cacheicon"><svg class="large"><use xlink:href="sprites.svg#waypoint_pkg"></use></svg></div>
+				<div class="cacheicon"><svg class="large"><use xlink:href="waypoints.svg#waypoint_pkg2"></use></svg></div> 
+				<div class="cacheicon"><svg class="large"><use xlink:href="waypoints.svg#waypoint_pkg"></use></svg></div>
             </td>
         </tr>
         <tr>
             <td>waypoint_puzzle</td>
             <td><img src="old/waypoint_puzzle.png" /></td>
             <td>
-				<div class="cacheicon"><svg class="large"><use xlink:href="sprites.svg#waypoint_puzzle"></use></svg></div>
+				<div class="cacheicon"><svg class="large"><use xlink:href="waypoints.svg#waypoint_puzzle"></use></svg></div>
             </td>
         </tr>
         <tr>
             <td>waypoint_stage</td>
             <td><img src="old/waypoint_stage.png" /></td>
             <td>
-				<div class="cacheicon"><svg class="large"><use xlink:href="sprites.svg#waypoint_stage"></use></svg></div>
+				<div class="cacheicon"><svg class="large"><use xlink:href="waypoints.svg#waypoint_stage"></use></svg></div>
             </td>
         </tr>
         <tr>
             <td>waypoint_trailhead</td>
             <td><img src="old/waypoint_trailhead.png" /></td>
             <td>
-				<div class="cacheicon"><svg class="large"><use xlink:href="sprites.svg#waypoint_trailhead"></use></svg></div>
+				<div class="cacheicon"><svg class="large"><use xlink:href="waypoints.svg#waypoint_trailhead"></use></svg></div>
             </td>
         </tr>
         <tr>
             <td>waypoint_waypoint</td>
             <td><img src="old/waypoint_waypoint.png" /></td>
             <td>
-				<div class="cacheicon"><svg class="large"><use xlink:href="sprites.svg#waypoint_waypoint"></use></svg></div>
+				<div class="cacheicon"><svg class="large"><use xlink:href="waypoints.svg#waypoint_waypoint"></use></svg></div>
             </td>
         </tr>
+    </table>
+    <table>
         <tr>
             <td>tick</td>
             <td><img src="old/tick.png" /></td>
-            <td><svg class="small"><use xlink:href="sprites.svg#tick"></use></svg></td>
+            <td><svg class="small"><use xlink:href="misc.svg#tick"></use></svg></td>
         </tr>
         <tr>
             <td>compass_arrow_mini_black</td>
             <td><img src="old/compass_arrow_mini_black.png" /></td>
-            <td><svg class="small"><use xlink:href="sprites.svg#compass_arrow_mini_black"></use></svg></td>
+            <td><svg class="small"><use xlink:href="misc.svg#compass_arrow_mini_black"></use></svg></td>
         </tr>
         <tr>
             <td>compass_arrow_mini_white</td>
             <td><img src="old/compass_arrow_mini_white.png" /></td>
-            <td><svg class="small"><use xlink:href="sprites.svg#compass_arrow_mini_white"></use></svg></td>
+            <td><svg class="small"><use xlink:href="misc.svg#compass_arrow_mini_white"></use></svg></td>
         </tr>
     </table>
 </body>
