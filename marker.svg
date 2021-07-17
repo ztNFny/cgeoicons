@@ -4,7 +4,7 @@
    height="30"
    version="1.1"
    id="svg1436"
-   sodipodi:docname="marker_pin2.svg"
+   sodipodi:docname="marker.svg"
    inkscape:version="1.1 (c68e22c387, 2021-05-23)"
    inkscape:export-filename="/media/johnson/Web/cgeoicons/marker.png"
    inkscape:export-xdpi="172.8"
@@ -47,7 +47,7 @@
      inkscape:snap-bbox-midpoints="false"
      inkscape:zoom="27.851035"
      inkscape:cx="19.855636"
-     inkscape:cy="23.733409"
+     inkscape:cy="20.860984"
      inkscape:window-width="2472"
      inkscape:window-height="1411"
      inkscape:window-x="88"
@@ -55,21 +55,20 @@
      inkscape:window-maximized="1"
      inkscape:current-layer="svg1436" />
   <path
-     style="mix-blend-mode:normal;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#383838;stroke-width:0.451966;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     style="mix-blend-mode:normal;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#383838;stroke-width:0.7;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
      d="m 14,21.197266 c -0.704085,0.29179 -1.404582,0.930515 -1.808594,1.794922 C 11.30979,24.878457 14,27 14,27 14,27 16.69021,24.878457 15.808594,22.992188 15.404582,22.127781 14.704085,21.489056 14,21.197266 Z"
      id="path3688"
      sodipodi:nodetypes="zczz"
      inkscape:path-effect="#path-effect7562"
      inkscape:original-d="M 12.192036,22.992685 C 11.31042,24.878955 14,27 14,27 c 0,0 2.7017,-3.654071 2.032889,-5.180334 -0.668812,-1.526262 -2.959237,-0.713251 -3.840853,1.173019 z"
-     transform="matrix(1.1450542,0,0,1.0688127,-1.0307588,0.83445316)" />
-  <ellipse
+     transform="matrix(1.1450542,0,0,1.0688127,-1.0307588,0.66564395)" />
+  <circle
      fill="#ffffff"
      stroke="#383838"
      stroke-width="1"
      cx="15"
-     cy="14.999999"
+     cy="15"
      id="circle1434"
-     style="stroke:#383838;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-     rx="11.749932"
-     ry="11.749931" />
+     style="stroke:#383838;stroke-width:0.7;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     r="11.650084" />
 </svg>
