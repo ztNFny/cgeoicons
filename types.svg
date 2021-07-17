@@ -53,8 +53,8 @@ colors:
     </symbol>
     <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="type_earth">
         <circle fill="#0288d1" cx="12" cy="12" r="12" />
-        <g transform="translate(2.4,2.4)">
-            <path fill="#fff" d="M17.9,17.39C17.64,16.59 16.89,16 16,16H15V13A1,1 0 0,0 14,12H8V10H10A1,1 0 0,0 11,9V7H13A2,2 0 0,0 15,5V4.59C17.93,5.77 20,8.64 20,12C20,14.08 19.2,15.97 17.9,17.39M11,19.93C7.05,19.44 4,16.08 4,12C4,11.38 4.08,10.78 4.21,10.21L9,15V16A2,2 0 0,0 11,18M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2Z" transform="scale(0.8)" />
+        <g transform="translate(1.8,1.8)">
+            <path fill="#fff" d="M17.9,17.39C17.64,16.59 16.89,16 16,16H15V13A1,1 0 0,0 14,12H8V10H10A1,1 0 0,0 11,9V7H13A2,2 0 0,0 15,5V4.59C17.93,5.77 20,8.64 20,12C20,14.08 19.2,15.97 17.9,17.39M11,19.93C7.05,19.44 4,16.08 4,12C4,11.38 4.08,10.78 4.21,10.21L9,15V16A2,2 0 0,0 11,18M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2Z" transform="scale(0.85)" />
         </g>
     </symbol>
     <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="type_mystery2">
@@ -68,12 +68,19 @@ colors:
         <g dominant-baseline="middle" fill="#fff" aria-label="?">
             <path d="m12.648 4.221c-2.266 0-3.894 0.88-5.148 2.354l2.222 1.716c0.792-0.902 1.672-1.342 2.574-1.342 0.968 0 1.54 0.462 1.54 1.254 0 1.804-3.498 1.54-3.498 5.346v0.682h3.168v-0.55c0-2.464 3.96-2.222 3.96-5.786 0-1.958-1.606-3.674-4.818-3.674zm-0.682 12.012c-1.1 0-1.98 0.902-1.98 1.98 0 1.1 0.88 2.002 1.98 2.002s1.98-0.902 1.98-2.002c0-1.078-0.88-1.98-1.98-1.98z"/>
         </g>
-    </symbol>
-    <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="type_mystery_src">
-        <circle fill="#303f9f" cx="12" cy="12" r="12" />
+        <!-- 
         <text text-anchor="middle" dominant-baseline="middle" font-family="Fira Sans" font-weight="bold" font-size="22" fill="#fff">
             <tspan x="12" y="14">?</tspan>
-        </text>
+        </text> -->
+    </symbol>
+    <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="type_mystery3">
+        <circle cx="12" cy="12" r="12" fill="#303f9f"/>
+        <g dominant-baseline="middle" fill="#fff" aria-label="?">
+        <path d="m16.557 8.203q0 1.7153-1.24 2.9347l-1.426 1.3847q-0.496 0.45467-0.496 1.178v0.496q0 0.62-0.434 1.0747-0.434 0.434-1.0747 0.434-0.62 0-1.0747-0.434-0.434-0.45467-0.434-1.0747v-0.496q0-1.984 1.426-3.348l1.4053-1.3847q0.41333-0.41333 0.28933-0.992-0.124-0.57867-0.66133-0.78533-0.20667-0.082667-0.434-0.082667h-1.0333q-0.72333 0-1.054 0.66133-0.41333 0.84733-1.364 0.84733-0.33067 0-0.64067-0.14467-0.868-0.41333-0.868-1.364 0-0.35133 0.16533-0.66133 0.51667-1.0747 1.5293-1.7153 1.0333-0.64067 2.232-0.64067h1.0333q0.78533 0 1.5293 0.26867 1.178 0.47533 1.9013 1.5293 0.72333 1.0333 0.72333 2.3147zm-2.9347 10.209q0 0.72333-0.496 1.2193t-1.2193 0.496q-0.70267 0-1.2193-0.496-0.496-0.496-0.496-1.2193 0-0.70267 0.496-1.1987 0.51667-0.51667 1.2193-0.51667 0.72333 0 1.2193 0.51667 0.496 0.496 0.496 1.1987z"/>
+        </g>
+        <!-- 
+        <text dominant-baseline="middle" fill="#ffffff" font-family="'232MKSD'" font-size="20.667px" text-anchor="middle" style="font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal"><tspan x="12" y="14" font-family="'232MKSD'" font-size="20.667px" style="font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal">?</tspan></text>
+        -->
     </symbol>
     <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="type_letterbox">
         <circle fill="#303f9f" cx="12" cy="12" r="12" />
@@ -105,12 +112,6 @@ colors:
             <path fill="#fff" d="M14.53 1.45L13.45 2.53L15.05 4.13C15.27 4.38 15.38 4.67 15.38 5S15.27 5.64 15.05 5.86L11.5 9.47L12.5 10.55L16.13 6.94C16.66 6.35 16.92 5.7 16.92 5C16.92 4.3 16.66 3.64 16.13 3.05L14.53 1.45M10.55 3.47L9.47 4.55L10.08 5.11C10.3 5.33 10.41 5.63 10.41 6S10.3 6.67 10.08 6.89L9.47 7.45L10.55 8.53L11.11 7.92C11.64 7.33 11.91 6.69 11.91 6C11.91 5.28 11.64 4.63 11.11 4.03L10.55 3.47M21 5.06C20.31 5.06 19.67 5.33 19.08 5.86L13.45 11.5L14.53 12.5L20.11 6.94C20.36 6.69 20.66 6.56 21 6.56S21.64 6.69 21.89 6.94L22.5 7.55L23.53 6.47L22.97 5.86C22.38 5.33 21.72 5.06 21 5.06M7 8L2 22L16 17L7 8M19 11.06C18.3 11.06 17.66 11.33 17.06 11.86L15.47 13.45L16.55 14.53L18.14 12.94C18.39 12.69 18.67 12.56 19 12.56C19.33 12.56 19.63 12.69 19.88 12.94L21.5 14.53L22.55 13.5L20.95 11.86C20.36 11.33 19.7 11.06 19 11.06Z" transform="scale(0.75)" />
         </g>
     </symbol>
-    <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="type_giga_src">
-        <circle fill="#d32f2f" cx="12" cy="12" r="12" />
-        <text text-anchor="middle" dominant-baseline="middle" font-family="Fira Sans" font-weight="bold" font-size="9" fill="#fff">
-            <tspan x="12" y="12">giga</tspan>
-        </text>
-    </symbol>
     <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="type_giga">
         <circle fill="#d32f2f" cx="12" cy="12" r="12" />
         <g dominant-baseline="middle" fill="#fff" aria-label="giga">
@@ -119,6 +120,10 @@ colors:
             <path d="m15.429 8.8365c-0.576 0.342-1.188 0.648-2.25 0.621-1.251 0-2.097 0.666-2.097 1.746 0 0.621 0.243 1.044 0.855 1.368-0.342 0.216-0.567 0.567-0.567 0.918 0 0.513 0.423 0.945 1.467 0.945h0.693c0.477 0 0.684 0.189 0.684 0.468 0 0.306-0.198 0.54-1.035 0.54-0.864 0-1.044-0.18-1.044-0.594h-1.278c0 0.945 0.477 1.539 2.286 1.539 1.638 0 2.502-0.603 2.502-1.584 0-0.801-0.711-1.386-1.827-1.386h-0.72c-0.459 0-0.522-0.144-0.522-0.288 0-0.108 0.054-0.216 0.153-0.27 0.171 0.036 0.351 0.054 0.549 0.054 1.242 0 2.007-0.675 2.007-1.602 0-0.621-0.297-0.972-0.9-1.233 0.603 0 1.044-0.054 1.377-0.189zm-2.214 1.557c0.477 0 0.72 0.243 0.72 0.774 0 0.549-0.252 0.828-0.72 0.828-0.432 0-0.72-0.288-0.72-0.81 0-0.495 0.279-0.792 0.72-0.792z" />
             <path d="m20.118 13.004v-1.854c0-1.107-0.594-1.692-1.98-1.692-0.54 0-1.197 0.126-1.8 0.351l0.324 0.936c0.477-0.162 0.945-0.252 1.251-0.252 0.585 0 0.81 0.171 0.81 0.738v0.207h-0.486c-1.449 0-2.241 0.567-2.241 1.611 0 0.873 0.603 1.494 1.557 1.494 0.567 0 1.098-0.189 1.44-0.711 0.225 0.468 0.594 0.639 1.152 0.684l0.297-0.927c-0.225-0.081-0.324-0.216-0.324-0.585zm-2.151 0.522c-0.351 0-0.558-0.225-0.558-0.603 0-0.477 0.315-0.702 0.963-0.702h0.351v0.855c-0.171 0.279-0.432 0.45-0.756 0.45z" />
         </g>
+        <!-- 
+        <text text-anchor="middle" dominant-baseline="middle" font-family="Fira Sans" font-weight="bold" font-size="9" fill="#fff">
+            <tspan x="12" y="12">giga</tspan>
+        </text> -->
     </symbol>
     <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="type_giga3">
         <circle fill="#d32f2f" cx="12" cy="12" r="12" />
@@ -135,12 +140,6 @@ colors:
             <tspan x="11.6" y="13">G</tspan>
         </text>
     </symbol>
-    <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="type_mega_src">
-        <circle fill="#d32f2f" cx="12" cy="12" r="12" />
-        <text text-anchor="middle" dominant-baseline="middle" font-family="Fira Sans" font-weight="bold" font-size="9" fill="#fff">
-            <tspan x="12" y="12">mega</tspan>
-        </text>
-    </symbol>
     <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="type_mega">
         <circle fill="#d32f2f" cx="12" cy="12" r="12" />
         <g dominant-baseline="middle" fill="#fff" aria-label="mega">
@@ -148,6 +147,10 @@ colors:
             <path d="m13.089 11.906c0-1.548-0.837-2.448-2.205-2.448-1.449 0-2.232 1.134-2.232 2.565 0 1.494 0.81 2.52 2.403 2.52 0.774 0 1.386-0.288 1.863-0.666l-0.585-0.792c-0.414 0.288-0.756 0.423-1.143 0.423-0.585 0-0.99-0.234-1.08-1.089h2.952c0.018-0.144 0.027-0.36 0.027-0.513zm-1.395-0.342h-1.593c0.072-0.864 0.342-1.161 0.819-1.161 0.567 0 0.765 0.45 0.774 1.098z" />
             <path d="m17.976 8.8365c-0.576 0.342-1.188 0.648-2.25 0.621-1.251 0-2.097 0.666-2.097 1.746 0 0.621 0.243 1.044 0.855 1.368-0.342 0.216-0.567 0.567-0.567 0.918 0 0.513 0.423 0.945 1.467 0.945h0.693c0.477 0 0.684 0.189 0.684 0.468 0 0.306-0.198 0.54-1.035 0.54-0.864 0-1.044-0.18-1.044-0.594h-1.278c0 0.945 0.477 1.539 2.286 1.539 1.638 0 2.502-0.603 2.502-1.584 0-0.801-0.711-1.386-1.827-1.386h-0.72c-0.459 0-0.522-0.144-0.522-0.288 0-0.108 0.054-0.216 0.153-0.27 0.171 0.036 0.351 0.054 0.549 0.054 1.242 0 2.007-0.675 2.007-1.602 0-0.621-0.297-0.972-0.9-1.233 0.603 0 1.044-0.054 1.377-0.189zm-2.214 1.557c0.477 0 0.72 0.243 0.72 0.774 0 0.549-0.252 0.828-0.72 0.828-0.432 0-0.72-0.288-0.72-0.81 0-0.495 0.279-0.792 0.72-0.792z" />
             <path d="m22.665 13.004v-1.854c0-1.107-0.594-1.692-1.98-1.692-0.54 0-1.197 0.126-1.8 0.351l0.324 0.936c0.477-0.162 0.945-0.252 1.251-0.252 0.585 0 0.81 0.171 0.81 0.738v0.207h-0.486c-1.449 0-2.241 0.567-2.241 1.611 0 0.873 0.603 1.494 1.557 1.494 0.567 0 1.098-0.189 1.44-0.711 0.225 0.468 0.594 0.639 1.152 0.684l0.297-0.927c-0.225-0.081-0.324-0.216-0.324-0.585zm-2.151 0.522c-0.351 0-0.558-0.225-0.558-0.603 0-0.477 0.315-0.702 0.963-0.702h0.351v0.855c-0.171 0.279-0.432 0.45-0.756 0.45z" />
+            <!-- 
+        <text text-anchor="middle" dominant-baseline="middle" font-family="Fira Sans" font-weight="bold" font-size="9" fill="#fff">
+            <tspan x="12" y="12">mega</tspan>
+        </text>-->
         </g>
     </symbol>
     <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="type_mega4">
@@ -196,8 +199,8 @@ colors:
     </symbol>
     <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="type_cito">
         <circle fill="#d32f2f" cx="12" cy="12" r="12" />
-        <g transform="translate(3.3,21) scale(1,-1)">
-            <path fill="#fff" d="m8.5798 2.6031c5.1898-1.8889 10.928 0.78695 12.817 5.9767 1.8889 5.1898-0.78695 10.928-5.9767 12.817-5.1898 1.8889-10.928-0.78695-12.817-5.9767-1.8889-5.1898 0.78695-10.928 5.9767-12.817m0.68404 1.8794c-4.1518 1.5111-6.2925 6.1019-4.7814 10.254 1.5111 4.1518 6.1019 6.2925 10.254 4.7814-2.0759 0.75557-4.3713-0.31478-5.1269-2.3907-0.75557-2.0759 0.31478-4.3713 2.3907-5.1269 2.0759-0.75557 3.1463-3.0509 2.3907-5.1269-0.75557-2.0759-3.0509-3.1463-5.1269-2.3907m4.6173 12.686c-11.508-8.2269-5.7539-4.1135 0 0z" transform="scale(0.75)" />
+        <g transform="translate(1.8,22.2) scale(1,-1)">
+            <path fill="#fff" d="m8.5798 2.6031c5.1898-1.8889 10.928 0.78695 12.817 5.9767 1.8889 5.1898-0.78695 10.928-5.9767 12.817-5.1898 1.8889-10.928-0.78695-12.817-5.9767-1.8889-5.1898 0.78695-10.928 5.9767-12.817m0.68404 1.8794c-4.1518 1.5111-6.2925 6.1019-4.7814 10.254 1.5111 4.1518 6.1019 6.2925 10.254 4.7814-2.0759 0.75557-4.3713-0.31478-5.1269-2.3907-0.75557-2.0759 0.31478-4.3713 2.3907-5.1269 2.0759-0.75557 3.1463-3.0509 2.3907-5.1269-0.75557-2.0759-3.0509-3.1463-5.1269-2.3907m4.6173 12.686c-11.508-8.2269-5.7539-4.1135 0 0z" transform="scale(0.85)" />
         </g>
     </symbol>
     <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="type_traditional">
@@ -286,12 +289,11 @@ colors:
             <path d="m10.99 13.801q-1.0098-0.58203-1.0098-1.7461 0-1.1641 1.0098-1.7461 0.50586-0.29297 1.0098-0.29297t1.0098 0.29297q1.0098 0.58203 1.0098 1.7461 0 1.1641-1.0098 1.7461-0.50586 0.29297-1.0098 0.29297t-1.0098-0.29297z" />
             <path d="m16.415 13.801q-1.0098-0.58203-1.0098-1.7461 0-1.1641 1.0098-1.7461 0.50586-0.29297 1.0098-0.29297 0.50391 0 1.0098 0.29297 1.0098 0.58203 1.0098 1.7461 0 1.1641-1.0098 1.7461-0.50586 0.29297-1.0098 0.29297-0.50391 0-1.0098-0.29297z" />
         </g>
-    </symbol>
-    <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="type_unknown_src">
+        <!-- 
         <circle fill="#616161" cx="12" cy="12" r="12" />
         <text text-anchor="middle" dominant-baseline="middle" font-family="Fira Sans" font-weight="bold" font-size="4" fill="#fff">
             <tspan x="12" y="12">⬤ ⬤ ⬤</tspan>
-        </text>
+        </text> -->
     </symbol>
     <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="type_hq2">
         <circle fill="#afb42b" cx="12" cy="12" r="12" />
@@ -307,15 +309,21 @@ colors:
     </symbol>
     <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="type_hq">
         <circle fill="#afb42b" cx="12" cy="12" r="12" />
-        <text text-anchor="middle" dominant-baseline="middle" font-family="Fira Sans" font-weight="bold" font-size="11" fill="#fff">
-            <tspan x="12" y="13">HQ</tspan>
-        </text>
+ <g transform="translate(.3)" dominant-baseline="middle" fill="#fff" aria-label="HQ">
+  <path d="m8.658 16.077h1.968v-8.316h-1.968v3.216h-2.496v-3.216h-1.968v8.316h1.968v-3.564h2.496z"/>
+  <path d="m17.346 15.537c1.02-0.564 1.956-1.608 1.956-3.624 0-2.772-1.404-4.356-3.756-4.356-2.34 0-3.744 1.644-3.744 4.356 0 2.772 1.404 4.332 3.624 4.332 1.56 0 2.424 0.732 3.192 1.596l1.188-1.548c-0.672-0.48-1.38-0.756-2.46-0.756zm-3.48-3.624c0-2.1 0.576-2.916 1.68-2.916 1.116 0 1.692 0.816 1.692 2.916 0 2.112-0.564 2.928-1.692 2.928-1.08 0-1.68-0.816-1.68-2.928z"/>
+ </g>
+ <!-- 
+ <text x="-0.4500078" y="-0.10899974" dominant-baseline="middle" fill="#ffffff" font-family="'Fira Sans'" font-size="12px" font-weight="bold" text-anchor="middle" style="font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal"><tspan x="11.549992" y="12.891" font-family="'Fira Sans'" font-size="12px" font-weight="bold" style="font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal">HQ</tspan></text> -->
     </symbol>
     <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="type_ape">
         <circle fill="#afb42b" cx="12" cy="12" r="12" />
-        <text text-anchor="middle" dominant-baseline="middle" font-family="Fira Sans" font-weight="bold" font-size="9" fill="#fff">
-            <tspan x="12" y="12">APE</tspan>
-        </text>
+ <g transform="translate(-.1)" dominant-baseline="middle" fill="#fff" aria-label="APE">
+  <path d="m7.696 15.696h1.856l-2.2293-7.392h-2.1227l-2.2293 7.392h1.8133l0.37333-1.5893h2.1653zm-2.24-2.8587 0.77867-3.264 0.77867 3.264z"/>
+  <path d="m12.485 8.304h-2.3893v7.392h1.7493v-2.464h0.8c1.7067 0 2.9227-0.8 2.9227-2.5173 0-1.6213-1.1733-2.4107-3.0827-2.4107zm0.010667 3.6693h-0.65067v-2.4213h0.61867c0.864 0 1.3013 0.37333 1.3013 1.1627 0 0.928-0.48 1.2587-1.2693 1.2587z"/>
+  <path d="m21.029 8.304h-4.5333v7.392h4.5333v-1.2587h-2.784v-1.888h2.272v-1.2267h-2.272v-1.7707h2.6027z"/>
+ </g>
+ <!--<text x="0.26132917" y="0.86400294" dominant-baseline="middle" fill="#ffffff" font-family="'Fira Sans'" font-size="10.667px" font-weight="bold" text-anchor="middle" style="font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal"><tspan x="12.261329" y="12.864003" font-family="'Fira Sans'" font-size="10.667px" font-weight="bold" style="font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal">APE</tspan></text>-->
     </symbol>
     <!-- off-center intentional -->
     <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="type_locationless">
