@@ -27,8 +27,4 @@
         <circle fill-opacity="0" stroke="#C62828" stroke-width="1.5" cx="12" cy="12" r="7.5" />
         <circle fill="#C62828" cx="12" cy="12" r="3" />
     </symbol>
-    <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="type_overlay_archived">
-        <line x1="10%" y1="90%" x2="90%" y2="10%" stroke="#b71c1c" stroke-width="3" />
-        <line x1="90%" y1="90%" x2="10%" y2="10%" stroke="#b71c1c" stroke-width="3" />
-    </symbol>
 </svg>
