@@ -1,4 +1,5 @@
 #! /bin/sh
+cd /home/lars/gitwork/cgeo/main/res/drawable/
 sed -i 's/android:width="30dp"/android:width="36dp"/g' marker.xml
 sed -i 's/android:height="30dp"/android:height="36dp"/g' marker.xml
 sed -i 's/android:width="30dp"/android:width="36dp"/g' marker_nopin.xml
