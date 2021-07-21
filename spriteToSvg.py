@@ -6,7 +6,7 @@ import lxml.etree
 dirname = os.path.dirname(__file__)
 outdir = os.path.join(dirname, 'svgs')
 
-files = ['dots.svg', 'markers.svg', 'misc.svg', 'types.svg', 'waypoints.svg']
+files = ['dots.svg', 'markers.svg', 'misc.svg', 'types.svg', 'types_disabled.svg', 'waypoints.svg']
 for f in files:
     infile = os.path.join(dirname, f)
     tree = lxml.etree.parse(infile, parser=lxml.etree.XMLParser(remove_comments=True))
