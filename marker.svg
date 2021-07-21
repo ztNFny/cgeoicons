@@ -1,74 +1,9 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg
-   width="30"
-   height="30"
-   version="1.1"
-   id="svg1436"
-   sodipodi:docname="marker.svg"
-   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
-   inkscape:export-filename="/media/johnson/Web/cgeoicons/marker.png"
-   inkscape:export-xdpi="172.8"
-   inkscape:export-ydpi="172.8"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
-  <defs
-     id="defs1440">
-    <inkscape:path-effect
-       effect="mirror_symmetry"
-       start_point="14,20"
-       end_point="14,28"
-       center_point="14,24"
-       id="path-effect7562"
-       is_visible="true"
-       lpeversion="1.1"
-       mode="free"
-       discard_orig_path="false"
-       fuse_paths="true"
-       oposite_fuse="false"
-       split_items="false"
-       split_open="false" />
-  </defs>
-  <sodipodi:namedview
-     id="namedview1438"
-     pagecolor="#505050"
-     bordercolor="#ffffff"
-     borderopacity="1"
-     inkscape:pageshadow="0"
-     inkscape:pageopacity="0"
-     inkscape:pagecheckerboard="1"
-     showgrid="false"
-     width="30px"
-     inkscape:snap-bbox="true"
-     inkscape:bbox-paths="false"
-     inkscape:bbox-nodes="false"
-     inkscape:snap-bbox-edge-midpoints="false"
-     inkscape:snap-bbox-midpoints="false"
-     inkscape:zoom="27.851035"
-     inkscape:cx="19.855636"
-     inkscape:cy="20.860984"
-     inkscape:window-width="2472"
-     inkscape:window-height="1411"
-     inkscape:window-x="88"
-     inkscape:window-y="240"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="svg1436" />
-  <path
-     style="mix-blend-mode:normal;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#383838;stroke-width:0.7;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-     d="m 14,21.197266 c -0.704085,0.29179 -1.404582,0.930515 -1.808594,1.794922 C 11.30979,24.878457 14,27 14,27 14,27 16.69021,24.878457 15.808594,22.992188 15.404582,22.127781 14.704085,21.489056 14,21.197266 Z"
-     id="path3688"
-     sodipodi:nodetypes="zczz"
-     inkscape:path-effect="#path-effect7562"
-     inkscape:original-d="M 12.192036,22.992685 C 11.31042,24.878955 14,27 14,27 c 0,0 2.7017,-3.654071 2.032889,-5.180334 -0.668812,-1.526262 -2.959237,-0.713251 -3.840853,1.173019 z"
-     transform="matrix(1.1450542,0,0,1.0688127,-1.0307588,0.66564395)" />
-  <circle
-     fill="#ffffff"
-     stroke="#383838"
-     stroke-width="1"
-     cx="15"
-     cy="15"
-     id="circle1434"
-     style="stroke:#383838;stroke-width:0.7;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-     r="11.650084" />
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30" height="30" version="1.1" xmlns="http://www.w3.org/2000/svg">
+ <g fill="#fff" stroke="#383838">
+  <path id="pin" transform="matrix(1.1451 0 0 1.0688 -1.0308 .66564)" d="m14 21.197c-0.70408 0.29179-1.4046 0.93052-1.8086 1.7949-0.88162 1.8863 1.8086 4.0078 1.8086 4.0078s2.6902-2.1215 1.8086-4.0078c-0.40401-0.86441-1.1045-1.5031-1.8086-1.7949z" fill-rule="evenodd" stroke-width=".7" style="mix-blend-mode:normal"/>
+  <path id="hexa" transform="matrix(.98491 0 0 .98491 .28885 .005942)" d="m28.509 15.152-6.7239 11.79-13.572 0.071811-6.8483-11.718 6.7239-11.79 13.572-0.071811z" display="none" stroke-width=".78586"/>
+  <rect id="rect" x="3.387" y="3.387" width="23.226" height="23.226" rx="4.5852" ry="4.5852" display="none" stroke-linecap="square" stroke-width=".774"/>
+  <circle id="gc" cx="15" cy="15" r="11.613" stroke-width=".774"/>
+ </g>
 </svg>

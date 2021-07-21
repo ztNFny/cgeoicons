@@ -27,6 +27,10 @@
             float: left;
             margin-right: 10px;
         }
+        svg.marker {
+            width: 56px;
+            height: 56px;
+        }
         td:nth-child(3) {
             white-space: nowrap;
         }
@@ -43,6 +47,9 @@
 
 <body>
     <table>
+        <tr>
+            <th colspan="3">Dot icons</th>
+        </tr>
         <tr>
             <td>dot_advlab</td>
             <td><img src="old/dot_advlab.png" /></td>
@@ -174,8 +181,11 @@
             <td><img src="old/dot_waypoint.png" /></td>
             <td>REMOVE</td>
         </tr>
-        </table>
-        <table>
+    </table>
+    <table>
+        <tr>
+            <th colspan="3">Markers</th>
+        </tr>
         <tr>
             <td>marker_archive</td>
             <td><img src="old/marker_archive.png" /></td>
@@ -284,13 +294,14 @@
     </table>
     <table>
         <tr>
+            <th colspan="3">Types</th>
+        </tr>
+        <tr>
             <td>type_advlab</td>
             <td><img src="old/type_advlab.png" /></td>
             <td>
 				<div class="cacheicon"><svg class="large"><use xlink:href="types.svg#type_advlab"></use></svg></div> 
 				<div class="cacheicon"><svg class="large"><use xlink:href="types.svg#type_advlab6"></use></svg></div> 
-				<div class="cacheicon"><svg class="large"><use xlink:href="types.svg#type_advlab2"></use></svg></div> 
-				<div class="cacheicon"><svg class="large"><use xlink:href="types.svg#type_advlab4"></use></svg></div> 
 				<div class="cacheicon"><svg class="large"><use xlink:href="types.svg#type_advlab5"></use></svg></div>
             </td>
             <td>Light blue works great as a reference to the official Lab app, but the contrast against white is quite low and it's breaking out of the color scheme (using 700 colors for bg). Light blue + orange marker is closest to the official, but again breaking out of monochrome scheme. Flask as a reference to the old Labs or Ballon as a reference to the current Lab app icon works better imho.</td>
@@ -315,7 +326,6 @@
             <td>
 				<div class="cacheicon"><svg class="large"><use xlink:href="types.svg#type_cito"></use></svg></div> 
 				<div class="cacheicon"><svg class="large"><use xlink:href="types.svg#type_cito2"></use></svg></div> 
-				<div class="cacheicon"><svg class="large"><use xlink:href="types.svg#type_cito3"></use></svg></div>
             </td>
             <td>I prefer to stay with a monochrome color scheme, so while the green/blue icon matches GC and the current icon better I'd prefer the white-only version</td>
         </tr>
@@ -352,8 +362,7 @@
             <td><img src="old/type_giga.png" /></td>
             <td>
 				<div class="cacheicon"><svg class="large"><use xlink:href="types.svg#type_giga"></use></svg></div> 
-				<div class="cacheicon"><svg class="large"><use xlink:href="types.svg#type_giga3"></use></svg></div> 
-				<div class="cacheicon"><svg class="large"><use xlink:href="types.svg#type_giga2"></use></svg></div>
+				<div class="cacheicon"><svg class="large"><use xlink:href="types.svg#type_giga2"></use></svg></div> 
             </td>
         </tr>
         <tr>
@@ -361,7 +370,6 @@
             <td><img src="old/type_hq.png" /></td>
             <td>
 				<div class="cacheicon"><svg class="large"><use xlink:href="types.svg#type_hq"></use></svg></div> 
-				<div class="cacheicon"><svg class="large"><use xlink:href="types.svg#type_hq2"></use></svg></div>
             </td>
         </tr>
         <tr>
@@ -385,8 +393,6 @@
 				<div class="cacheicon"><svg class="large"><use xlink:href="types.svg#type_mega"></use></svg></div> 
 				<div class="cacheicon"><svg class="large"><use xlink:href="types.svg#type_mega5"></use></svg></div> 
 				<div class="cacheicon"><svg class="large"><use xlink:href="types.svg#type_mega4"></use></svg></div> 
-				<div class="cacheicon"><svg class="large"><use xlink:href="types.svg#type_mega2"></use></svg></div> 
-				<div class="cacheicon"><svg class="large"><use xlink:href="types.svg#type_mega3"></use></svg></div>
             </td>
         </tr>
         <tr>
@@ -395,8 +401,6 @@
             <td>
 				<div class="cacheicon"><svg class="large"><use xlink:href="types.svg#type_multi"></use></svg></div> 
 				<div class="cacheicon"><svg class="large"><use xlink:href="types.svg#type_multi2"></use></svg></div> 
-				<div class="cacheicon"><svg class="large"><use xlink:href="types.svg#type_multi3"></use></svg></div> 
-				<div class="cacheicon"><svg class="large"><use xlink:href="types.svg#type_multi4"></use></svg></div> 
 				<div class="cacheicon"><svg class="large"><use xlink:href="types.svg#type_multi5"></use></svg></div>
             </td>
         </tr>
@@ -449,22 +453,155 @@
             </td>
             <td>The bee is a reference to WhereYouGo, but to other users the "play" icon should be better</td>
         </tr>
+    </table>
+    <table>
         <tr>
-            <td>type_overlay_archived</td>
-            <td><img src="old/type_overlay_archived.png" /></td>
+            <th colspan="3">Types disabled</th>
+        </tr>
+        <tr>
+            <td>type_advlab_disabled</td>
+            <td>NEW</td>
             <td>
-				<div class="cacheicon"><svg class="large"><use xlink:href="types.svg#type_overlay_archived"></use></svg></div>
+				<div class="cacheicon"><svg class="large"><use xlink:href="types_disabled.svg#type_advlab_disabled">_disabled</use></svg></div> 
+                </td>
+        </tr>
+        <tr>
+            <td>type_ape_disabled</td>
+            <td>NEW</td>
+            <td>
+				<div class="cacheicon"><svg class="large"><use xlink:href="types_disabled.svg#type_ape_disabled">_disabled</use></svg></div>
             </td>
         </tr>
         <tr>
-            <td>type_overlay_visited</td>
+            <td>type_cgeo_disabled</td>
             <td>NEW</td>
             <td>
-				<div class="cacheicon"><svg class="large"><use xlink:href="types.svg#type_overlay_visited"></use></svg></div>
+				<div class="cacheicon"><svg class="large"><use xlink:href="types_disabled.svg#type_cgeo_disabled">_disabled</use></svg></div>
+            </td>
+        </tr>
+        <tr>
+            <td>type_cito_disabled</td>
+            <td>NEW</td>
+            <td>
+				<div class="cacheicon"><svg class="large"><use xlink:href="types_disabled.svg#type_cito_disabled">_disabled</use></svg></div> </td>
+        </tr>
+        <tr>
+            <td>type_earth_disabled</td>
+            <td>NEW</td>
+            <td>
+				<div class="cacheicon"><svg class="large"><use xlink:href="types_disabled.svg#type_earth_disabled">_disabled</use></svg></div>
+            </td>
+        </tr>
+        <tr>
+            <td>type_event_disabled</td>
+            <td>NEW</td>
+            <td>
+				<div class="cacheicon"><svg class="large"><use xlink:href="types_disabled.svg#type_event_disabled">_disabled</use></svg></div>
+            </td>
+        </tr>
+        <tr>
+            <td>type_specialevent_disabled</td>
+            <td>NEW</td>
+            <td>
+				<div class="cacheicon"><svg class="large"><use xlink:href="types_disabled.svg#type_specialevent_disabled">_disabled</use></svg></div>
+            </td>
+        </tr>
+        <tr>
+            <td>type_locationless_disabled</td>
+            <td>NEW</td>
+            <td>
+				<div class="cacheicon"><svg class="large"><use xlink:href="types_disabled.svg#type_locationless_disabled">_disabled</use></svg></div>
+            </td>
+        </tr>
+        <tr>
+            <td>type_giga_disabled</td>
+            <td>NEW</td>
+            <td>
+				<div class="cacheicon"><svg class="large"><use xlink:href="types_disabled.svg#type_giga_disabled">_disabled</use></svg></div> 
+            </td>
+        </tr>
+        <tr>
+            <td>type_hq_disabled</td>
+            <td>NEW</td>
+            <td>
+				<div class="cacheicon"><svg class="large"><use xlink:href="types_disabled.svg#type_hq_disabled">_disabled</use></svg></div> 
+            </td>
+        </tr>
+        <tr>
+            <td>type_maze_disabled</td>
+            <td>NEW</td>
+            <td>
+				<div class="cacheicon"><svg class="large"><use xlink:href="types_disabled.svg#type_maze_disabled">_disabled</use></svg></div>
+            </td>
+        </tr>
+        <tr>
+            <td>type_letterbox_disabled</td>
+            <td>NEW</td>
+            <td>
+				<div class="cacheicon"><svg class="large"><use xlink:href="types_disabled.svg#type_letterbox_disabled">_disabled</use></svg></div>
+            </td>
+        </tr>
+        <tr>
+            <td>type_mega_disabled</td>
+            <td>NEW</td>
+            <td>
+				<div class="cacheicon"><svg class="large"><use xlink:href="types_disabled.svg#type_mega_disabled">_disabled</use></svg></div> 
+            </td>
+        </tr>
+        <tr>
+            <td>type_multi_disabled</td>
+            <td>NEW</td>
+            <td>
+				<div class="cacheicon"><svg class="large"><use xlink:href="types_disabled.svg#type_multi_disabled">_disabled</use></svg></div> 
+            </td>
+        </tr>
+        <tr>
+            <td>type_mystery_disabled</td>
+            <td>NEW</td>
+            <td>
+				<div class="cacheicon"><svg class="large"><use xlink:href="types_disabled.svg#type_mystery_disabled">_disabled</use></svg></div>
+            </td>
+        </tr>
+        <tr>
+            <td>type_traditional_disabled</td>
+            <td>NEW</td>
+            <td>
+				<div class="cacheicon"><svg class="large"><use xlink:href="types_disabled.svg#type_traditional_disabled">_disabled</use></svg></div>
+            </td>
+        </tr>
+        <tr>
+            <td>type_unknown_disabled</td>
+            <td>NEW</td>
+            <td>
+				<div class="cacheicon"><svg class="large"><use xlink:href="types_disabled.svg#type_unknown_disabled">_disabled</use></svg></div> 
+            </td>
+        </tr>
+        <tr>
+            <td>type_virtual_disabled</td>
+            <td>NEW</td>
+            <td>
+				<div class="cacheicon"><svg class="large"><use xlink:href="types_disabled.svg#type_virtual_disabled">_disabled</use></svg></div>
+            </td>
+        </tr>
+        <tr>
+            <td>type_webcam_disabled</td>
+            <td>NEW</td>
+            <td>
+				<div class="cacheicon"><svg class="large"><use xlink:href="types_disabled.svg#type_webcam_disabled">_disabled</use></svg></div>
+            </td>
+        </tr>
+        <tr>
+            <td>type_wherigo_disabled</td>
+            <td>NEW</td>
+            <td>
+				<div class="cacheicon"><svg class="large"><use xlink:href="types_disabled.svg#type_wherigo_disabled">_disabled</use></svg></div>
             </td>
         </tr>
     </table>
     <table>
+        <tr>
+            <th colspan="3">Waypoints</th>
+        </tr>
         <tr>
             <td>waypoint_flag</td>
             <td><img src="old/waypoint_flag.png" /></td>
@@ -511,44 +648,50 @@
     </table>
     <table>
         <tr>
+            <th colspan="3">Misc</th>
+        </tr>
+        <tr>
             <td>marker_nopin</td>
             <td>NEW</td>
-            <td><svg class="small"><use xlink:href="misc.svg#marker_nopin"></use></svg></td>
+            <td><svg class="marker"><use xlink:href="misc.svg#marker_nopin"></use></svg></td>
         </tr>
         <tr>
             <td>marker_disabled_oc</td>
             <td><img src="old/marker_disabled_oc.png" /></td>
-            <td><svg class="small"><use xlink:href="markers.svg#marker_disabled_oc"></use></svg></td>
+            <td><svg class="small"><use xlink:href="misc.svg#marker_disabled_oc"></use></svg></td>
         </tr>
         <tr>
             <td>marker_disabled_other</td>
             <td><img src="old/marker_disabled_other.png" /></td>
-            <td><svg class="small"><use xlink:href="markers.svg#marker_disabled_other"></use></svg></td>
+            <td><svg class="small"><use xlink:href="misc.svg#marker_disabled_other"></use></svg></td>
         </tr>
         <tr>
             <td>marker_disabled</td>
             <td><img src="old/marker_disabled.png" /></td>
-            <td><svg class="small"><use xlink:href="markers.svg#marker_disabled"></use></svg></td>
+            <td><svg class="small"><use xlink:href="misc.svg#marker_disabled"></use></svg></td>
         </tr>
         <tr>
             <td>marker_notreliable</td>
             <td><img src="old/marker_notreliable.png" /></td>
-            <td><svg class="small"><use xlink:href="markers.svg#marker_notreliable"></use></svg></td>
+            <td><svg class="small"><use xlink:href="misc.svg#marker_notreliable"></use></svg></td>
         </tr>
         <tr>
             <td>marker_oc</td>
             <td><img src="old/marker_oc.png" /></td>
-            <td><svg class="small"><use xlink:href="markers.svg#marker_oc"></use></svg></td>
+            <td><svg class="marker"><use xlink:href="misc.svg#marker_oc"></use></svg></td>
         </tr>
         <tr>
             <td>marker_other</td>
             <td><img src="old/marker_other.png" /></td>
-            <td><svg class="small"><use xlink:href="markers.svg#marker_other"></use></svg></td>
+            <td>
+                <svg class="marker"><use xlink:href="misc.svg#marker_other"></use></svg>
+                <svg class="marker"><use xlink:href="misc.svg#marker_other2"></use></svg>
+            </td>
         </tr>
         <tr>
             <td>marker_transparent</td>
             <td><img src="old/marker_transparent.png" /></td>
-            <td><svg class="small"><use xlink:href="markers.svg#marker_transparent"></use></svg></td>
+            <td><svg class="small"><use xlink:href="misc.svg#marker_transparent"></use></svg></td>
         </tr>
         <tr>
             <td>marker</td>
@@ -570,6 +713,20 @@
             <td>compass_arrow_mini_white</td>
             <td><img src="old/compass_arrow_mini_white.png" /></td>
             <td><svg class="small"><use xlink:href="misc.svg#compass_arrow_mini_white"></use></svg></td>
+        </tr>
+        <tr>
+            <td>type_overlay_archived</td>
+            <td><img src="old/type_overlay_archived.png" /></td>
+            <td>
+				<div class="cacheicon"><svg class="large"><use xlink:href="misc.svg#type_overlay_archived"></use></svg></div>
+            </td>
+        </tr>
+        <tr>
+            <td>type_overlay_visited</td>
+            <td>NEW</td>
+            <td>
+				<div class="cacheicon"><svg class="large"><use xlink:href="misc.svg#type_overlay_visited"></use></svg></div>
+            </td>
         </tr>
     </table>
 </body>
