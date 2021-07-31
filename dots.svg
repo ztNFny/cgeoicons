@@ -2,7 +2,7 @@
     xmlns="http://www.w3.org/2000/svg"
     xmlns:xlink="http://www.w3.org/1999/xlink">
 
-    <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="dot_advlab">
+    <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="dot_advlab3">
         <circle fill="#fff" cx="12" cy="12" r="12" />
         <circle fill="#90CAF9" cx="12" cy="12" r="10" />
     </symbol>
@@ -10,7 +10,7 @@
         <circle fill="#fff" cx="12" cy="12" r="12" />
         <circle fill="#f7991d" cx="12" cy="12" r="10" />
     </symbol>
-    <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="dot_advlab3">
+    <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="dot_advlab">
         <circle fill="#fff" cx="12" cy="12" r="12" />
         <circle fill="#7b1fa2" cx="12" cy="12" r="10" />
     </symbol>
