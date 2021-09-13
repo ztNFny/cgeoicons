@@ -158,20 +158,6 @@
         <circle fill="#43A047" cx="12" cy="12" r="10"/>
         <path fill="#fff" d="M9,20.42L2.79,14.21L5.62,11.38L9,14.77L18.88,4.88L21.71,7.71L9,20.42Z" transform="translate(4,3.8) scale(0.7)"/>
     </symbol>
-    <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="marker_hasfinal">
-        <circle fill="#4A148C" cx="12" cy="12" r="12" />
-        <circle fill="#ab47bc" cx="12" cy="12" r="10" />
-        <g transform="translate(4.5,4.5)">
-            <path fill="#fff" d="M12,11.5A2.5,2.5 0 0,1 9.5,9A2.5,2.5 0 0,1 12,6.5A2.5,2.5 0 0,1 14.5,9A2.5,2.5 0 0,1 12,11.5M12,2A7,7 0 0,0 5,9C5,14.25 12,22 12,22C12,22 19,14.25 19,9A7,7 0 0,0 12,2Z" transform="scale(0.625)" />
-        </g>
-    </symbol>
-    <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="marker_hasfinal2">
-        <circle fill="#b71c1c" cx="12" cy="12" r="12" />
-        <circle fill="#FF5252" cx="12" cy="12" r="10" />
-        <g transform="translate(4.5,4.5)">
-            <path fill="#fff" d="M12,11.5A2.5,2.5 0 0,1 9.5,9A2.5,2.5 0 0,1 12,6.5A2.5,2.5 0 0,1 14.5,9A2.5,2.5 0 0,1 12,11.5M12,2A7,7 0 0,0 5,9C5,14.25 12,22 12,22C12,22 19,14.25 19,9A7,7 0 0,0 12,2Z" transform="scale(0.625)" />
-        </g>
-    </symbol>
     
 
 </svg>

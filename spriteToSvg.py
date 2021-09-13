@@ -15,6 +15,8 @@ for f in files:
     root = tree.getroot()
     for bg in tree.xpath("//svg:circle[@id='background']", namespaces={"svg": "http://www.w3.org/2000/svg"}):
         bg.getparent().remove(bg)
+    for bg in tree.xpath("//svg:circle[@id='foreground']", namespaces={"svg": "http://www.w3.org/2000/svg"}):
+        bg.getparent().remove(bg)
     for symbol in root:
         name = symbol.attrib['id']
         m = re.search(r'\d$', name)
