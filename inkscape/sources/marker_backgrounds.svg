@@ -2,9 +2,9 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="30"
-   height="30"
-   viewBox="0 0 7.9374997 7.9374997"
+   width="25.865292"
+   height="22.4"
+   viewBox="0 0 6.8435251 5.9266666"
    version="1.1"
    id="svg4325"
    inkscape:version="1.1 (c68e22c387, 2021-05-23)"
@@ -24,33 +24,39 @@
      inkscape:document-units="mm"
      showgrid="false"
      units="px"
-     inkscape:zoom="29.309298"
-     inkscape:cx="8.3250031"
-     inkscape:cy="12.385148"
+     inkscape:zoom="22.627417"
+     inkscape:cx="-4.2868349"
+     inkscape:cy="4.1542523"
      inkscape:window-width="2472"
      inkscape:window-height="1411"
      inkscape:window-x="88"
      inkscape:window-y="240"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer1" />
+     inkscape:current-layer="layer1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     scale-x="1" />
   <defs
      id="defs4322" />
   <g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
-     id="layer1">
+     id="layer1"
+     transform="translate(-0.30257578,-0.79375001)">
     <rect
-       style="fill:#303f9f;stroke-width:0;stroke-linecap:square;stroke-linejoin:round"
+       style="fill:#303f9f;stroke:none;stroke-width:0;stroke-linecap:square;stroke-linejoin:round"
        id="background_oc"
-       width="6.3499999"
-       height="6.3499999"
-       x="0.79375005"
+       width="5.9266667"
+       height="5.9266667"
+       x="0.7610051"
        y="0.79375005"
        ry="0.74888384"
        rx="0.74888384" />
     <path
        sodipodi:type="star"
-       style="display:inline;fill:#388e3c;fill-opacity:1;stroke:#383838;stroke-width:0;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none"
+       style="display:inline;fill:#388e3c;fill-opacity:1;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none"
        id="background_other"
        inkscape:flatsided="true"
        sodipodi:sides="6"
@@ -62,14 +68,14 @@
        sodipodi:arg2="0.52359878"
        inkscape:rounded="0"
        inkscape:randomized="0"
-       transform="matrix(0.13722736,0,0,0.13722736,1.7737985,-0.60310861)"
+       transform="matrix(0.12807887,0,0,0.12807887,1.675717,-0.5099847)"
        d="M 42.711058,33.315941 29.353028,56.452726 H 2.6369696 L -10.72106,33.315941 2.6369696,10.179155 l 26.7160584,0 z" />
     <circle
        fill="#f57c00"
-       cx="3.96875"
-       cy="3.96875"
-       r="3.175"
+       cx="3.7243383"
+       cy="3.7570834"
+       r="2.9633334"
        id="background_gc"
-       style="stroke-width:0.264583" />
+       style="stroke:none;stroke-width:0.264583" />
   </g>
 </svg>
