@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 import os
 import re
+import glob
 import lxml.etree
 
 ns = { 'svg': 'http://www.w3.org/2000/svg' }
@@ -8,15 +9,14 @@ ns = { 'svg': 'http://www.w3.org/2000/svg' }
 dirname = os.path.dirname(__file__)
 outdir = os.path.join(dirname, 'svgs')
 
-files = ['dots.svg', 'markers.svg', 'types.svg', 'waypoints.svg']
-for f in files:
+for f in glob.glob("*.svg"):
     infile = os.path.join(dirname, f)
     tree = lxml.etree.parse(infile, parser=lxml.etree.XMLParser(remove_comments=True))
     root = tree.getroot()
-    for bg in tree.xpath("//svg:circle[@id='background']", namespaces={"svg": "http://www.w3.org/2000/svg"}):
-        bg.getparent().remove(bg)
-    for bg in tree.xpath("//svg:circle[@id='foreground']", namespaces={"svg": "http://www.w3.org/2000/svg"}):
-        bg.getparent().remove(bg)
+    #for bg in tree.xpath("//svg:circle[@id='background']", namespaces={"svg": "http://www.w3.org/2000/svg"}):
+    #    bg.getparent().remove(bg)
+    #for bg in tree.xpath("//svg:circle[@id='foreground']", namespaces={"svg": "http://www.w3.org/2000/svg"}):
+    #    bg.getparent().remove(bg)
     for symbol in root:
         name = symbol.attrib['id']
         m = re.search(r'\d$', name)
