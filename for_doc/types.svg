@@ -1,11 +1,11 @@
 <svg width="0" height="0" class="hidden"
     xmlns="http://www.w3.org/2000/svg"
     xmlns:xlink="http://www.w3.org/1999/xlink">
-    <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="type_advlab">
+    <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="type_advlab_nobg">
         <circle id="background" fill="#7b1fa2" cx="12" cy="12" r="12" />
         <path fill="#fff" d="M19 15C19 18.87 15.87 22 12 22C8.13 22 5 18.87 5 15C5 12.21 6.64 9.8 9 8.67V5C9 4.45 9.45 4 10 4H10.5L9.5 2H14.5L13.5 4H14C14.55 4 15 4.45 15 5V8.67C17.36 9.8 19 12.21 19 15M11 6V10.1C8.72 10.56 7 12.58 7 15L7.08 15.91L9 13.93L13.07 18L16.93 14.14C16.58 12.12 15 10.5 13 10.1V6H11M13.07 12C13.62 12 14.07 12.45 14.07 13C14.07 13.55 13.62 14 13.07 14C12.5 14 12.07 13.55 12.07 13C12.07 12.45 12.5 12 13.07 12Z" transform="translate(8.7,-1) scale(0.8) rotate(30)" />
     </symbol>
-    <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="type_earth">
+    <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="type_earth_nobg">
         <circle id="background" transform="rotate(45)" cx="16.97" cy="5.7407e-5" r="12" fill="#0288d1" />
  <g>
   <circle cx="12" cy="12" r="8.25" fill="none" stroke="#fff" stroke-linecap="square" stroke-linejoin="round" stroke-width="1.5"/>
@@ -18,7 +18,7 @@
   <path d="m13.463 7.4138c-0.06612 0.021399-0.13285 0.042996-0.15684 0.11364-0.02399 0.070648-0.0048 0.18901 0.04771 0.22605 0.05252 0.037043 0.13816-0.0059 0.16198-0.075179 0.02381-0.069279-0.01428-0.16629-0.05284-0.26452"/>
  </g>
     </symbol>
-    <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="type_mystery">
+    <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="type_mystery_nobg">
         <circle id="background" fill="#303f9f" cx="12" cy="12" r="12" />
         <g dominant-baseline="middle" fill="#fff" aria-label="?" transform="translate(-0.15,0)">
             <path d="m12.648 4.221c-2.266 0-3.894 0.88-5.148 2.354l2.222 1.716c0.792-0.902 1.672-1.342 2.574-1.342 0.968 0 1.54 0.462 1.54 1.254 0 1.804-3.498 1.54-3.498 5.346v0.682h3.168v-0.55c0-2.464 3.96-2.222 3.96-5.786 0-1.958-1.606-3.674-4.818-3.674zm-0.682 12.012c-1.1 0-1.98 0.902-1.98 1.98 0 1.1 0.88 2.002 1.98 2.002s1.98-0.902 1.98-2.002c0-1.078-0.88-1.98-1.98-1.98z" />
@@ -28,37 +28,37 @@
             <tspan x="12" y="14">?</tspan>
         </text> -->
     </symbol>
-    <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="type_letterbox">
+    <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="type_letterbox_nobg">
         <circle id="background" fill="#303f9f" cx="12" cy="12" r="12" />
         <g transform="translate(3.6,4)">
             <path fill="#fff" d="M20,8L12,13L4,8V6L12,11L20,6M20,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V6C22,4.89 21.1,4 20,4Z" transform="scale(0.7 0.65)" />
         </g>
     </symbol>
-    <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="type_virtual">
+    <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="type_virtual_nobg">
         <circle id="background" fill="#0288d1" cx="12" cy="12" r="12" />
         <g transform="translate(3.6,3)">
             <path fill="#fff" d="M12,2A9,9 0 0,0 3,11V22L6,19L9,22L12,19L15,22L18,19L21,22V11A9,9 0 0,0 12,2M9,8A2,2 0 0,1 11,10A2,2 0 0,1 9,12A2,2 0 0,1 7,10A2,2 0 0,1 9,8M15,8A2,2 0 0,1 17,10A2,2 0 0,1 15,12A2,2 0 0,1 13,10A2,2 0 0,1 15,8Z" transform="scale(0.7)" />
         </g>
     </symbol>
-    <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="type_webcam">
+    <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="type_webcam_nobg">
         <circle id="background" fill="#0288d1" cx="12" cy="12" r="12" />
         <g transform="translate(3,2.5)">
             <path fill="#fff" d="M12,2A7,7 0 0,1 19,9A7,7 0 0,1 12,16A7,7 0 0,1 5,9A7,7 0 0,1 12,2M12,4A5,5 0 0,0 7,9A5,5 0 0,0 12,14A5,5 0 0,0 17,9A5,5 0 0,0 12,4M12,6A3,3 0 0,1 15,9A3,3 0 0,1 12,12A3,3 0 0,1 9,9A3,3 0 0,1 12,6M6,22A2,2 0 0,1 4,20C4,19.62 4.1,19.27 4.29,18.97L6.11,15.81C7.69,17.17 9.75,18 12,18C14.25,18 16.31,17.17 17.89,15.81L19.71,18.97C19.9,19.27 20,19.62 20,20A2,2 0 0,1 18,22H6Z" transform="scale(0.75)" />
         </g>
     </symbol>
-    <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="type_event">
+    <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="type_event_nobg">
         <circle id="background" fill="#d32f2f" cx="12" cy="12" r="12" />
         <g transform="translate(3.3,2.5)">
             <path fill="#fff" d="M12,3C17.5,3 22,6.58 22,11C22,15.42 17.5,19 12,19C10.76,19 9.57,18.82 8.47,18.5C5.55,21 2,21 2,21C4.33,18.67 4.7,17.1 4.75,16.5C3.05,15.07 2,13.13 2,11C2,6.58 6.5,3 12,3M17,12V10H15V12H17M13,12V10H11V12H13M9,12V10H7V12H9Z" transform="scale(0.75)" />
         </g>
     </symbol>
-    <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="type_specialevent">
+    <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="type_specialevent_nobg">
         <circle id="background" fill="#d32f2f" cx="12" cy="12" r="12" />
         <g transform="translate(3.3,2.5)">
             <path fill="#fff" d="M14.53 1.45L13.45 2.53L15.05 4.13C15.27 4.38 15.38 4.67 15.38 5S15.27 5.64 15.05 5.86L11.5 9.47L12.5 10.55L16.13 6.94C16.66 6.35 16.92 5.7 16.92 5C16.92 4.3 16.66 3.64 16.13 3.05L14.53 1.45M10.55 3.47L9.47 4.55L10.08 5.11C10.3 5.33 10.41 5.63 10.41 6S10.3 6.67 10.08 6.89L9.47 7.45L10.55 8.53L11.11 7.92C11.64 7.33 11.91 6.69 11.91 6C11.91 5.28 11.64 4.63 11.11 4.03L10.55 3.47M21 5.06C20.31 5.06 19.67 5.33 19.08 5.86L13.45 11.5L14.53 12.5L20.11 6.94C20.36 6.69 20.66 6.56 21 6.56S21.64 6.69 21.89 6.94L22.5 7.55L23.53 6.47L22.97 5.86C22.38 5.33 21.72 5.06 21 5.06M7 8L2 22L16 17L7 8M19 11.06C18.3 11.06 17.66 11.33 17.06 11.86L15.47 13.45L16.55 14.53L18.14 12.94C18.39 12.69 18.67 12.56 19 12.56C19.33 12.56 19.63 12.69 19.88 12.94L21.5 14.53L22.55 13.5L20.95 11.86C20.36 11.33 19.7 11.06 19 11.06Z" transform="scale(0.75)" />
         </g>
     </symbol>
-    <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="type_giga">
+    <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="type_giga_nobg">
         <circle id="background" fill="#d32f2f" cx="12" cy="12" r="12" />
         <g dominant-baseline="middle" fill="#fff" aria-label="giga">
             <path d="m7.932 8.8365c-0.576 0.342-1.188 0.648-2.25 0.621-1.251 0-2.097 0.666-2.097 1.746 0 0.621 0.243 1.044 0.855 1.368-0.342 0.216-0.567 0.567-0.567 0.918 0 0.513 0.423 0.945 1.467 0.945h0.693c0.477 0 0.684 0.189 0.684 0.468 0 0.306-0.198 0.54-1.035 0.54-0.864 0-1.044-0.18-1.044-0.594h-1.278c0 0.945 0.477 1.539 2.286 1.539 1.638 0 2.502-0.603 2.502-1.584 0-0.801-0.711-1.386-1.827-1.386h-0.72c-0.459 0-0.522-0.144-0.522-0.288 0-0.108 0.054-0.216 0.153-0.27 0.171 0.036 0.351 0.054 0.549 0.054 1.242 0 2.007-0.675 2.007-1.602 0-0.621-0.297-0.972-0.9-1.233 0.603 0 1.044-0.054 1.377-0.189zm-2.214 1.557c0.477 0 0.72 0.243 0.72 0.774 0 0.549-0.252 0.828-0.72 0.828-0.432 0-0.72-0.288-0.72-0.81 0-0.495 0.279-0.792 0.72-0.792z" />
@@ -71,7 +71,7 @@
             <tspan x="12" y="12">giga</tspan>
         </text> -->
     </symbol>
-    <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="type_mega">
+    <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="type_mega_nobg">
         <circle id="background" fill="#d32f2f" cx="12" cy="12" r="12" />
         <g dominant-baseline="middle" fill="#fff" aria-label="mega">
             <path d="m6.6 9.4575c-0.612 0-1.053 0.261-1.431 0.756-0.189-0.486-0.594-0.756-1.125-0.756-0.585 0-1.017 0.243-1.386 0.711l-0.099-0.558h-1.242v4.779h1.422v-3.267c0.207-0.396 0.432-0.621 0.729-0.621 0.216 0 0.405 0.135 0.405 0.639v3.249h1.422v-3.267c0.207-0.396 0.423-0.621 0.729-0.621 0.216 0 0.405 0.135 0.405 0.639v3.249h1.422v-3.492c0-0.909-0.513-1.44-1.251-1.44z" />
@@ -84,13 +84,13 @@
         </text>-->
         </g>
     </symbol>
-    <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="type_cito">
+    <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="type_cito_nobg">
         <circle id="background" fill="#d32f2f" cx="12" cy="12" r="12" />
 			<g transform="translate(2.3721 1.85)">
 				<path transform="scale(.8)" d="m21.82 15.42-2.5 4.33c-0.49 0.86-1.4 1.31-2.32 1.25h-2v2l-2.5-4.5 2.5-4.5v2h2.82l-2.22-3.85 4.33-2.5 1.8 3.12c0.52 0.77 0.59 1.8 0.09 2.65m-12.61-12.36h5c0.98 0 1.83 0.57 2.24 1.39l1 1.74 1.73-1-2.64 4.41-5.15 0.09 1.73-1-1.41-2.45-2.21 3.85-4.34-2.5 1.8-3.12c0.41-0.83 1.26-1.41 2.25-1.41m-4.16 16.7-2.5-4.33c-0.49-0.85-0.42-1.87 0.09-2.64l1-1.73-1.73-1 5.14 0.08 2.65 4.42-1.73-1-1.41 2.44h4.44v5h-3.6c-0.93 0.07-1.85-0.39-2.35-1.24z" fill="#fff" />
 			</g>
     </symbol>
-    <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="type_traditional">
+    <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="type_traditional_nobg">
         <circle id="background" fill="#388E3C" cx="12" cy="12" r="12" />
         <g id="icon" transform="translate(4.2 3.8) scale(.68)">
             <path id="outline" d="m22.776 9.142s-1.1129 5.668-1.2559 5.9678c-0.41356 0.3417-13.322 6.82-13.322 6.82-0.37493 0.12498-0.64626 0.11052-0.88371-0.0707 0 0-5.8446-6.5612-6.0622-7.1174-0.088017-0.27823-0.055864-6.5435-0.055864-6.5435z" fill="none" stroke="#fff" stroke-width="1.5" />
@@ -98,12 +98,12 @@
             <path id="outline_center" d="m7.9226 22.368 0.39988-6.9294" fill="none" stroke="#fff" stroke-width="1.5" />
         </g>
     </symbol>
-    <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="type_cgeo">
+    <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="type_cgeo_nobg">
         <circle id="background" fill="#f7991d" cx="12" cy="12" r="12" />
 
         <path fill="#fff" d="M12,4A4,4 0 0,1 16,8A4,4 0 0,1 12,12A4,4 0 0,1 8,8A4,4 0 0,1 12,4M12,14C16.42,14 20,15.79 20,18V20H4V18C4,15.79 7.58,14 12,14Z" transform="translate(2.4,2.4) scale(0.8)" />
     </symbol>
-    <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="type_multi">
+    <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="type_multi_nobg">
         <circle id="background" cx="12" cy="12" r="12" fill="#f57c00" />
         <circle cx="15.79" cy="16.8" r="2.25" fill="#fff" stroke-width="0" />
         <circle cx="6.0248" cy="13.025" r="2.25" fill="#fff" stroke-width="0" />
@@ -112,12 +112,12 @@
         <path d="m12.773 6.625-0.26172 0.00977-0.26172 0.017578-0.26172 0.027344-0.26172 0.037109-0.25781 0.046875-0.25781 0.056641-0.25586 0.064453-0.25195 0.074219-0.19727 0.066406-0.01172 0.00391 0.51172 1.4102 0.14453-0.048828 0.20312-0.058594 0.20117-0.052734 0.20508-0.042969 0.20703-0.037109 0.20703-0.029297 0.20898-0.023437 0.20898-0.013672 0.20898-0.00781h0.20898l0.21094 0.00781 0.20898 0.013672 0.19922 0.021484 0.1582-1.4922-0.22461-0.023438-0.26172-0.017578-0.26367-0.0097656zm-3.7773 1.1328-0.13672 0.089844-0.16797 0.11523-0.16602 0.12109-0.16211 0.125-0.1582 0.12891-0.1543 0.13281-0.15234 0.13867-0.14648 0.14062-0.14258 0.14648-0.14062 0.14844-0.13477 0.1543-0.13086 0.15625-0.12695 0.16016-0.12305 0.16406-0.11719 0.16797-0.11328 0.16992-0.052734 0.08399 1.2734 0.79492 0.039063-0.06641 0.091797-0.13476 0.09375-0.13477 0.097656-0.13086 0.10156-0.12695 0.10352-0.125 0.10938-0.12305 0.11133-0.1211 0.11523-0.11523 0.11719-0.11328 0.12109-0.11133 0.125-0.10742 0.12695-0.10352 0.12891-0.099609 0.13281-0.095703 0.13477-0.09375 0.11914-0.076172z" fill="#fff" />
 
     </symbol>
-    <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="type_wherigo">
+    <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="type_wherigo_nobg">
         <circle id="background" fill="#303f9f" cx="12" cy="12" r="12" />
         <path id="ring" d="m12 3.2051c-2.2543 1e-7 -4.5081 0.85775-6.2227 2.5723-3.429 3.429-3.429 9.0163 0 12.445 3.429 3.429 9.0163 3.429 12.445 0 2.9444-2.9444 3.3578-7.479 1.2461-10.873l-0.98242 1.998c1.0396 2.5328 0.52956 5.5427-1.5332 7.6055-2.7431 2.7431-7.1632 2.7431-9.9062 0s-2.7431-7.1632 0-9.9062c2.0626-2.0626 5.0724-2.5747 7.6055-1.5352l1.998-0.98242c-1.4176-0.88182-3.0337-1.3242-4.6504-1.3242z" fill="#fff" style="-inkscape-stroke:none" />
         <path id="arrow" d="m6.8379 11.362 11.409-5.6096-5.6096 11.409z" fill="#ffffff" />
     </symbol>
-    <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="type_unknown">
+    <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="type_unknown_nobg">
         <circle id="background" fill="#616161" cx="12" cy="12" r="12" />
         <g dominant-baseline="middle" fill="#fff">
             <path d="m5.5657 13.801q-1.0098-0.58203-1.0098-1.7461 0-1.1641 1.0098-1.7461 0.50586-0.29297 1.0098-0.29297 0.50391 0 1.0098 0.29297 1.0098 0.58203 1.0098 1.7461 0 1.1641-1.0098 1.7461-0.50586 0.29297-1.0098 0.29297-0.50391 0-1.0098-0.29297z" />
@@ -130,7 +130,7 @@
             <tspan x="12" y="12">⬤ ⬤ ⬤</tspan>
         </text> -->
     </symbol>
-    <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="type_maze">
+    <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="type_maze_nobg">
         <circle id="background" fill="#afb42b" cx="12" cy="12" r="12" />
         <g transform="matrix(.16 0 0 .16 2.5596 2.5625)" fill="none" stroke="#fff" stroke-width="8">
             <g stroke-linecap="square">
@@ -153,7 +153,7 @@
             </g>
         </g>
     </symbol>
-    <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="type_hq">
+    <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="type_hq_nobg">
         <circle id="background" fill="#afb42b" cx="12" cy="12" r="12" />
         <g transform="translate(.3)" dominant-baseline="middle" fill="#fff" aria-label="HQ">
             <path d="m8.658 16.077h1.968v-8.316h-1.968v3.216h-2.496v-3.216h-1.968v8.316h1.968v-3.564h2.496z" />
@@ -162,7 +162,7 @@
         <!-- 
  <text x="-0.4500078" y="-0.10899974" dominant-baseline="middle" fill="#ffffff" font-family="'Fira Sans'" font-size="12px" font-weight="bold" text-anchor="middle" style="font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal"><tspan x="11.549992" y="12.891" font-family="'Fira Sans'" font-size="12px" font-weight="bold" style="font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal">HQ</tspan></text> -->
     </symbol>
-    <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="type_ape">
+    <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="type_ape_nobg">
         <circle id="background" fill="#afb42b" cx="12" cy="12" r="12" />
         <g transform="translate(-.1)" dominant-baseline="middle" fill="#fff" aria-label="APE">
             <path d="m7.696 15.696h1.856l-2.2293-7.392h-2.1227l-2.2293 7.392h1.8133l0.37333-1.5893h2.1653zm-2.24-2.8587 0.77867-3.264 0.77867 3.264z" />
@@ -172,7 +172,7 @@
         <!--<text x="0.26132917" y="0.86400294" dominant-baseline="middle" fill="#ffffff" font-family="'Fira Sans'" font-size="10.667px" font-weight="bold" text-anchor="middle" style="font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal"><tspan x="12.261329" y="12.864003" font-family="'Fira Sans'" font-size="10.667px" font-weight="bold" style="font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal">APE</tspan></text>-->
     </symbol>
     <!-- off-center intentional -->
-    <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="type_locationless">
+    <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="type_locationless_nobg">
         <circle id="background" fill="#616161" cx="12" cy="12" r="12" />
         <g transform="translate(3.8,3.6)">
             <path fill="#fff" d="M16.37,16.1L11.75,11.47L11.64,11.36L3.27,3L2,4.27L5.18,7.45C5.06,7.95 5,8.46 5,9C5,14.25 12,22 12,22C12,22 13.67,20.15 15.37,17.65L18.73,21L20,19.72M12,6.5A2.5,2.5 0 0,1 14.5,9C14.5,9.73 14.17,10.39 13.67,10.85L17.3,14.5C18.28,12.62 19,10.68 19,9A7,7 0 0,0 12,2C10,2 8.24,2.82 6.96,4.14L10.15,7.33C10.61,6.82 11.26,6.5 12,6.5Z" transform="scale(0.7)" />

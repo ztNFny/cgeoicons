@@ -1,15 +1,15 @@
 <svg width="0" height="0" class="hidden"
 	xmlns="http://www.w3.org/2000/svg"
 	xmlns:xlink="http://www.w3.org/1999/xlink">
-	<symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36" id="type_advlab">
-		<ellipse id="marker_gc" cx="17.769" cy="18.001" rx="14.011" ry="14.011" fill="#fff" stroke="#383838" stroke-width=".75" />
+	<symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36" id="type_advlab_disabled">
+		<ellipse id="marker_gc" cx="18" cy="18" rx="14" ry="14" fill="#fff" stroke="#383838" stroke-width=".75" />
 		<circle id="background" fill="#90a4ae" cx="12" cy="12" r="12" transform="translate(6.3 6.3) scale(0.975)" />
 		<g transform="translate(7,7) scale(0.916666666667)">
 			<path fill="#fff" d="M19 15C19 18.87 15.87 22 12 22C8.13 22 5 18.87 5 15C5 12.21 6.64 9.8 9 8.67V5C9 4.45 9.45 4 10 4H10.5L9.5 2H14.5L13.5 4H14C14.55 4 15 4.45 15 5V8.67C17.36 9.8 19 12.21 19 15M11 6V10.1C8.72 10.56 7 12.58 7 15L7.08 15.91L9 13.93L13.07 18L16.93 14.14C16.58 12.12 15 10.5 13 10.1V6H11M13.07 12C13.62 12 14.07 12.45 14.07 13C14.07 13.55 13.62 14 13.07 14C12.5 14 12.07 13.55 12.07 13C12.07 12.45 12.5 12 13.07 12Z" transform="translate(8.7,-1) scale(0.8) rotate(30)" />
 		</g>
 	</symbol>
-	<symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36" id="type_earth">
-		<ellipse id="marker_gc" cx="17.769" cy="18.001" rx="14.011" ry="14.011" fill="#fff" stroke="#383838" stroke-width=".75" />
+	<symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36" id="type_earth_disabled">
+		<ellipse id="marker_gc" cx="18" cy="18" rx="14" ry="14" fill="#fff" stroke="#383838" stroke-width=".75" />
 		<circle id="background" fill="#90a4ae" cx="12" cy="12" r="12" transform="translate(6.3 6.3) scale(0.975)" />
 		<g transform="translate(7,7) scale(0.916666666667)">
 			<g>
@@ -24,8 +24,8 @@
 			</g>
 		</g>
 	</symbol>
-	<symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36" id="type_earth2">
-		<ellipse id="marker_gc" cx="17.769" cy="18.001" rx="14.011" ry="14.011" fill="#fff" stroke="#383838" stroke-width=".75" />
+	<symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36" id="type_earth2_disabled">
+		<ellipse id="marker_gc" cx="18" cy="18" rx="14" ry="14" fill="#fff" stroke="#383838" stroke-width=".75" />
 		<circle id="background" fill="#90a4ae" cx="12" cy="12" r="12" transform="translate(6.3 6.3) scale(0.975)" />
 		<g transform="translate(7,7) scale(0.916666666667)">
 			<g fill="none" stroke="#fff">
@@ -36,8 +36,8 @@
 			</g>
 		</g>
 	</symbol>
-	<symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36" id="type_mystery">
-		<ellipse id="marker_gc" cx="17.769" cy="18.001" rx="14.011" ry="14.011" fill="#fff" stroke="#383838" stroke-width=".75" />
+	<symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36" id="type_mystery_disabled">
+		<ellipse id="marker_gc" cx="18" cy="18" rx="14" ry="14" fill="#fff" stroke="#383838" stroke-width=".75" />
 		<circle id="background" fill="#90a4ae" cx="12" cy="12" r="12" transform="translate(6.3 6.3) scale(0.975)" />
 		<g transform="translate(7,7) scale(0.916666666667)">
 			<g dominant-baseline="middle" fill="#fff" aria-label="?" transform="translate(-0.15,0)">
@@ -49,8 +49,8 @@
         </text> -->
 		</g>
 	</symbol>
-	<symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36" id="type_letterbox">
-		<ellipse id="marker_gc" cx="17.769" cy="18.001" rx="14.011" ry="14.011" fill="#fff" stroke="#383838" stroke-width=".75" />
+	<symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36" id="type_letterbox_disabled">
+		<ellipse id="marker_gc" cx="18" cy="18" rx="14" ry="14" fill="#fff" stroke="#383838" stroke-width=".75" />
 		<circle id="background" fill="#90a4ae" cx="12" cy="12" r="12" transform="translate(6.3 6.3) scale(0.975)" />
 		<g transform="translate(7,7) scale(0.916666666667)">
 			<g transform="translate(3.6,4)">
@@ -58,8 +58,8 @@
 			</g>
 		</g>
 	</symbol>
-	<symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36" id="type_virtual">
-		<ellipse id="marker_gc" cx="17.769" cy="18.001" rx="14.011" ry="14.011" fill="#fff" stroke="#383838" stroke-width=".75" />
+	<symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36" id="type_virtual_disabled">
+		<ellipse id="marker_gc" cx="18" cy="18" rx="14" ry="14" fill="#fff" stroke="#383838" stroke-width=".75" />
 		<circle id="background" fill="#90a4ae" cx="12" cy="12" r="12" transform="translate(6.3 6.3) scale(0.975)" />
 		<g transform="translate(7,7) scale(0.916666666667)">
 			<g transform="translate(3.6,3)">
@@ -67,8 +67,8 @@
 			</g>
 		</g>
 	</symbol>
-	<symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36" id="type_webcam">
-		<ellipse id="marker_gc" cx="17.769" cy="18.001" rx="14.011" ry="14.011" fill="#fff" stroke="#383838" stroke-width=".75" />
+	<symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36" id="type_webcam_disabled">
+		<ellipse id="marker_gc" cx="18" cy="18" rx="14" ry="14" fill="#fff" stroke="#383838" stroke-width=".75" />
 		<circle id="background" fill="#90a4ae" cx="12" cy="12" r="12" transform="translate(6.3 6.3) scale(0.975)" />
 		<g transform="translate(7,7) scale(0.916666666667)">
 			<g transform="translate(3,2.5)">
@@ -76,8 +76,8 @@
 			</g>
 		</g>
 	</symbol>
-	<symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36" id="type_event">
-		<ellipse id="marker_gc" cx="17.769" cy="18.001" rx="14.011" ry="14.011" fill="#fff" stroke="#383838" stroke-width=".75" />
+	<symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36" id="type_event_disabled">
+		<ellipse id="marker_gc" cx="18" cy="18" rx="14" ry="14" fill="#fff" stroke="#383838" stroke-width=".75" />
 		<circle id="background" fill="#90a4ae" cx="12" cy="12" r="12" transform="translate(6.3 6.3) scale(0.975)" />
 		<g transform="translate(7,7) scale(0.916666666667)">
 			<g transform="translate(3.3,2.5)">
@@ -85,8 +85,8 @@
 			</g>
 		</g>
 	</symbol>
-	<symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36" id="type_specialevent">
-		<ellipse id="marker_gc" cx="17.769" cy="18.001" rx="14.011" ry="14.011" fill="#fff" stroke="#383838" stroke-width=".75" />
+	<symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36" id="type_specialevent_disabled">
+		<ellipse id="marker_gc" cx="18" cy="18" rx="14" ry="14" fill="#fff" stroke="#383838" stroke-width=".75" />
 		<circle id="background" fill="#90a4ae" cx="12" cy="12" r="12" transform="translate(6.3 6.3) scale(0.975)" />
 		<g transform="translate(7,7) scale(0.916666666667)">
 			<g transform="translate(3.3,2.5)">
@@ -94,8 +94,8 @@
 			</g>
 		</g>
 	</symbol>
-	<symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36" id="type_giga">
-		<ellipse id="marker_gc" cx="17.769" cy="18.001" rx="14.011" ry="14.011" fill="#fff" stroke="#383838" stroke-width=".75" />
+	<symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36" id="type_giga_disabled">
+		<ellipse id="marker_gc" cx="18" cy="18" rx="14" ry="14" fill="#fff" stroke="#383838" stroke-width=".75" />
 		<circle id="background" fill="#90a4ae" cx="12" cy="12" r="12" transform="translate(6.3 6.3) scale(0.975)" />
 		<g transform="translate(7,7) scale(0.916666666667)">
 			<g dominant-baseline="middle" fill="#fff" aria-label="giga">
@@ -110,8 +110,8 @@
         </text> -->
 		</g>
 	</symbol>
-	<symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36" id="type_mega">
-		<ellipse id="marker_gc" cx="17.769" cy="18.001" rx="14.011" ry="14.011" fill="#fff" stroke="#383838" stroke-width=".75" />
+	<symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36" id="type_mega_disabled">
+		<ellipse id="marker_gc" cx="18" cy="18" rx="14" ry="14" fill="#fff" stroke="#383838" stroke-width=".75" />
 		<circle id="background" fill="#90a4ae" cx="12" cy="12" r="12" transform="translate(6.3 6.3) scale(0.975)" />
 		<g transform="translate(7,7) scale(0.916666666667)">
 			<g dominant-baseline="middle" fill="#fff" aria-label="mega">
@@ -126,8 +126,8 @@
 			</g>
 		</g>
 	</symbol>
-	<symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36" id="type_cito">
-		<ellipse id="marker_gc" cx="17.769" cy="18.001" rx="14.011" ry="14.011" fill="#fff" stroke="#383838" stroke-width=".75" />
+	<symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36" id="type_cito_disabled">
+		<ellipse id="marker_gc" cx="18" cy="18" rx="14" ry="14" fill="#fff" stroke="#383838" stroke-width=".75" />
 		<circle id="background" fill="#90a4ae" cx="12" cy="12" r="12" transform="translate(6.3 6.3) scale(0.975)" />
 		<g transform="translate(7,7) scale(0.916666666667)">
 			<g transform="translate(2.3721 1.85)">
@@ -135,8 +135,8 @@
 			</g>
 		</g>
 	</symbol>
-	<symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36" id="type_traditional">
-		<ellipse id="marker_gc" cx="17.769" cy="18.001" rx="14.011" ry="14.011" fill="#fff" stroke="#383838" stroke-width=".75" />
+	<symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36" id="type_traditional_disabled">
+		<ellipse id="marker_gc" cx="18" cy="18" rx="14" ry="14" fill="#fff" stroke="#383838" stroke-width=".75" />
 		<circle id="background" fill="#90a4ae" cx="12" cy="12" r="12" transform="translate(6.3 6.3) scale(0.975)" />
 		<g transform="translate(7,7) scale(0.916666666667)">
 			<g id="icon" transform="translate(4.2 3.8) scale(.68)">
@@ -146,16 +146,16 @@
 			</g>
 		</g>
 	</symbol>
-	<symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36" id="type_cgeo">
-		<ellipse id="marker_gc" cx="17.769" cy="18.001" rx="14.011" ry="14.011" fill="#fff" stroke="#383838" stroke-width=".75" />
+	<symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36" id="type_cgeo_disabled">
+		<ellipse id="marker_gc" cx="18" cy="18" rx="14" ry="14" fill="#fff" stroke="#383838" stroke-width=".75" />
 		<circle id="background" fill="#90a4ae" cx="12" cy="12" r="12" transform="translate(6.3 6.3) scale(0.975)" />
 		<g transform="translate(7,7) scale(0.916666666667)">
 
 			<path fill="#fff" d="M12,4A4,4 0 0,1 16,8A4,4 0 0,1 12,12A4,4 0 0,1 8,8A4,4 0 0,1 12,4M12,14C16.42,14 20,15.79 20,18V20H4V18C4,15.79 7.58,14 12,14Z" transform="translate(2.4,2.4) scale(0.8)" />
 		</g>
 	</symbol>
-	<symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36" id="type_multi">
-		<ellipse id="marker_gc" cx="17.769" cy="18.001" rx="14.011" ry="14.011" fill="#fff" stroke="#383838" stroke-width=".75" />
+	<symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36" id="type_multi_disabled">
+		<ellipse id="marker_gc" cx="18" cy="18" rx="14" ry="14" fill="#fff" stroke="#383838" stroke-width=".75" />
 		<circle id="background" fill="#90a4ae" cx="12" cy="12" r="12" transform="translate(6.3 6.3) scale(0.975)" />
 		<g transform="translate(7,7) scale(0.916666666667)">
 			<circle cx="15.79" cy="16.8" r="2.25" fill="#fff" stroke-width="0" />
@@ -166,8 +166,8 @@
 
 		</g>
 	</symbol>
-	<symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36" id="type_multi2">
-		<ellipse id="marker_gc" cx="17.769" cy="18.001" rx="14.011" ry="14.011" fill="#fff" stroke="#383838" stroke-width=".75" />
+	<symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36" id="type_multi2_disabled">
+		<ellipse id="marker_gc" cx="18" cy="18" rx="14" ry="14" fill="#fff" stroke="#383838" stroke-width=".75" />
 		<circle id="background" fill="#90a4ae" cx="12" cy="12" r="12" transform="translate(6.3 6.3) scale(0.975)" />
 		<g transform="translate(7,7) scale(0.916666666667)">
 			<g transform="translate(3,3)">
@@ -176,16 +176,16 @@
 
 		</g>
 	</symbol>
-	<symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36" id="type_wherigo">
-		<ellipse id="marker_gc" cx="17.769" cy="18.001" rx="14.011" ry="14.011" fill="#fff" stroke="#383838" stroke-width=".75" />
+	<symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36" id="type_wherigo_disabled">
+		<ellipse id="marker_gc" cx="18" cy="18" rx="14" ry="14" fill="#fff" stroke="#383838" stroke-width=".75" />
 		<circle id="background" fill="#90a4ae" cx="12" cy="12" r="12" transform="translate(6.3 6.3) scale(0.975)" />
 		<g transform="translate(7,7) scale(0.916666666667)">
 			<path id="ring" d="m12 3.2051c-2.2543 1e-7 -4.5081 0.85775-6.2227 2.5723-3.429 3.429-3.429 9.0163 0 12.445 3.429 3.429 9.0163 3.429 12.445 0 2.9444-2.9444 3.3578-7.479 1.2461-10.873l-0.98242 1.998c1.0396 2.5328 0.52956 5.5427-1.5332 7.6055-2.7431 2.7431-7.1632 2.7431-9.9062 0s-2.7431-7.1632 0-9.9062c2.0626-2.0626 5.0724-2.5747 7.6055-1.5352l1.998-0.98242c-1.4176-0.88182-3.0337-1.3242-4.6504-1.3242z" fill="#fff" style="-inkscape-stroke:none" />
 			<path id="arrow" d="m6.8379 11.362 11.409-5.6096-5.6096 11.409z" fill="#ffffff" />
 		</g>
 	</symbol>
-	<symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36" id="type_unknown">
-		<ellipse id="marker_gc" cx="17.769" cy="18.001" rx="14.011" ry="14.011" fill="#fff" stroke="#383838" stroke-width=".75" />
+	<symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36" id="type_unknown_disabled">
+		<ellipse id="marker_gc" cx="18" cy="18" rx="14" ry="14" fill="#fff" stroke="#383838" stroke-width=".75" />
 		<circle id="background" fill="#90a4ae" cx="12" cy="12" r="12" transform="translate(6.3 6.3) scale(0.975)" />
 		<g transform="translate(7,7) scale(0.916666666667)">
 			<g dominant-baseline="middle" fill="#fff">
@@ -194,14 +194,14 @@
 				<path d="m16.415 13.801q-1.0098-0.58203-1.0098-1.7461 0-1.1641 1.0098-1.7461 0.50586-0.29297 1.0098-0.29297 0.50391 0 1.0098 0.29297 1.0098 0.58203 1.0098 1.7461 0 1.1641-1.0098 1.7461-0.50586 0.29297-1.0098 0.29297-0.50391 0-1.0098-0.29297z" />
 			</g>
 			<!-- 
-        <ellipse id="marker_gc" cx="17.769" cy="18.001" rx="14.011" ry="14.011" fill="#fff" stroke="#383838" stroke-width=".75"/><g transform="translate(7,7) scale(0.916666666667)"><circle id="background" fill="#90a4ae" cx="12" cy="12" r="12" />
+        <ellipse id="marker_gc" cx="18" cy="18" rx="14" ry="14" fill="#fff" stroke="#383838" stroke-width=".75"/><g transform="translate(7,7) scale(0.916666666667)"><circle id="background" fill="#90a4ae" cx="12" cy="12" r="12" />
         <text text-anchor="middle" dominant-baseline="middle" font-family="Fira Sans" font-weight="bold" font-size="4" fill="#fff">
             <tspan x="12" y="12">⬤ ⬤ ⬤</tspan>
         </text> -->
 		</g>
 	</symbol>
-	<symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36" id="type_maze">
-		<ellipse id="marker_gc" cx="17.769" cy="18.001" rx="14.011" ry="14.011" fill="#fff" stroke="#383838" stroke-width=".75" />
+	<symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36" id="type_maze_disabled">
+		<ellipse id="marker_gc" cx="18" cy="18" rx="14" ry="14" fill="#fff" stroke="#383838" stroke-width=".75" />
 		<circle id="background" fill="#90a4ae" cx="12" cy="12" r="12" transform="translate(6.3 6.3) scale(0.975)" />
 		<g transform="translate(7,7) scale(0.916666666667)">
 			<g transform="matrix(.16 0 0 .16 2.5596 2.5625)" fill="none" stroke="#fff" stroke-width="8">
@@ -226,8 +226,8 @@
 			</g>
 		</g>
 	</symbol>
-	<symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36" id="type_hq">
-		<ellipse id="marker_gc" cx="17.769" cy="18.001" rx="14.011" ry="14.011" fill="#fff" stroke="#383838" stroke-width=".75" />
+	<symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36" id="type_hq_disabled">
+		<ellipse id="marker_gc" cx="18" cy="18" rx="14" ry="14" fill="#fff" stroke="#383838" stroke-width=".75" />
 		<circle id="background" fill="#90a4ae" cx="12" cy="12" r="12" transform="translate(6.3 6.3) scale(0.975)" />
 		<g transform="translate(7,7) scale(0.916666666667)">
 			<g transform="translate(.3)" dominant-baseline="middle" fill="#fff" aria-label="HQ">
@@ -238,8 +238,8 @@
  <text x="-0.4500078" y="-0.10899974" dominant-baseline="middle" fill="#ffffff" font-family="'Fira Sans'" font-size="12px" font-weight="bold" text-anchor="middle" style="font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal"><tspan x="11.549992" y="12.891" font-family="'Fira Sans'" font-size="12px" font-weight="bold" style="font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal">HQ</tspan></text> -->
 		</g>
 	</symbol>
-	<symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36" id="type_ape">
-		<ellipse id="marker_gc" cx="17.769" cy="18.001" rx="14.011" ry="14.011" fill="#fff" stroke="#383838" stroke-width=".75" />
+	<symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36" id="type_ape_disabled">
+		<ellipse id="marker_gc" cx="18" cy="18" rx="14" ry="14" fill="#fff" stroke="#383838" stroke-width=".75" />
 		<circle id="background" fill="#90a4ae" cx="12" cy="12" r="12" transform="translate(6.3 6.3) scale(0.975)" />
 		<g transform="translate(7,7) scale(0.916666666667)">
 			<g transform="translate(-.1)" dominant-baseline="middle" fill="#fff" aria-label="APE">
@@ -251,8 +251,8 @@
 		</g>
 	</symbol>
 	<!-- off-center intentional -->
-	<symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36" id="type_locationless">
-		<ellipse id="marker_gc" cx="17.769" cy="18.001" rx="14.011" ry="14.011" fill="#fff" stroke="#383838" stroke-width=".75" />
+	<symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36" id="type_locationless_disabled">
+		<ellipse id="marker_gc" cx="18" cy="18" rx="14" ry="14" fill="#fff" stroke="#383838" stroke-width=".75" />
 		<circle id="background" fill="#90a4ae" cx="12" cy="12" r="12" transform="translate(6.3 6.3) scale(0.975)" />
 		<g transform="translate(7,7) scale(0.916666666667)">
 			<g transform="translate(3.8,3.6)">
