@@ -2,9 +2,9 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="27.019993"
+   width="27.02"
    height="23.400002"
-   viewBox="0 0 7.1490398 6.1912504"
+   viewBox="0 0 27.020001 23.400002"
    version="1.1"
    id="svg4325"
    inkscape:version="1.1 (c68e22c387, 2021-05-23)"
@@ -21,11 +21,11 @@
      inkscape:pageshadow="0"
      inkscape:pageopacity="0"
      inkscape:pagecheckerboard="1"
-     inkscape:document-units="mm"
+     inkscape:document-units="px"
      showgrid="false"
      units="px"
      inkscape:zoom="22.627417"
-     inkscape:cx="9.6343299"
+     inkscape:cx="7.5130095"
      inkscape:cy="4.1542523"
      inkscape:window-width="2472"
      inkscape:window-height="1411"
@@ -48,10 +48,10 @@
     <rect
        style="fill:#303f9f;stroke:none;stroke-width:0;stroke-linecap:square;stroke-linejoin:round"
        id="background_oc"
-       width="6.1912498"
-       height="6.1912498"
-       x="0.76100504"
-       y="0.79374999"
+       width="23.399998"
+       height="23.399998"
+       x="2.0352221"
+       y="0.79375005"
        ry="0.74888378"
        rx="0.74888378" />
     <path
@@ -68,13 +68,13 @@
        sodipodi:arg2="0.52359878"
        inkscape:rounded="0"
        inkscape:randomized="0"
-       transform="matrix(0.13379668,0,0,0.13379668,1.7370179,-0.56818714)"
+       transform="matrix(0.50568822,0,0,0.50568822,5.7240893,-4.3537287)"
        d="M 42.711058,33.315941 29.353028,56.452726 H 2.6369696 L -10.72106,33.315941 2.6369696,10.179155 l 26.7160584,0 z" />
     <circle
        fill="#f57c00"
-       cx="3.8566298"
-       cy="3.889375"
-       r="3.0956249"
+       cx="13.735221"
+       cy="12.49375"
+       r="11.699999"
        id="background_gc"
        style="stroke:none;stroke-width:0.264583" />
   </g>
